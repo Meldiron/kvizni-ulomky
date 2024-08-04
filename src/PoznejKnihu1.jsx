@@ -5,7 +5,7 @@ import "./index.css";
 import { GenerateSurvey } from "./generateSurvey";
 
 const generateImage = (url) =>
-  `<div style='width: 100%; display: flex; justify-content: center;'><img src='${url}' style='max-width: 300px; width: 100%;border-radius: 16px;' /></div>`;
+  `<div style='width: 100%; display: flex; justify-content: center;'><img src='${url}' height="450px" style='background-color: rgb(20, 20, 20); max-width: 300px; width: 100%;border-radius: 16px;' /></div>`;
 
 const json = {
   title: "Poznej knihu #1",
@@ -110,8 +110,19 @@ function PoznejKnihu1() {
   const survey = GenerateSurvey(json, false, true);
 
   survey.onComplete.add(() => {
+    let totalCorrect = 0;
+    let total = 0;
+    survey.pages.forEach(page => {
+      page.questions.forEach(question => {
+        if (question.correctAnswer === question.value) {
+          totalCorrect++;
+        }
+        total++;
+      });
+    });
+
     const percentage = Math.ceil(
-      (survey.correctAnswers / survey.questionCount) * 100
+      (totalCorrect / total) * 100
     );
 
     let mark = "";

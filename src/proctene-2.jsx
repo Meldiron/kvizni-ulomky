@@ -16,67 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer10",
-        "title": "Ve kterém roce jsi přečetla knihu 'Už nikdy pěšky po Arménii a Gruzii'?",
+        "name": "answer119",
+        "title": "Kdo napsal knihu knihu 'Sluha dvou pánů'?",
         "choices": [
-          "2023",
-          "2021",
-          "2024",
-          "2020"
-        ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer10} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer11",
-        "title": "Kdo napsal knihu knihu 'Už nikdy pěšky po Arménii a Gruzii'?",
-        "choices": [
-          "Zibura, Ladislav",
-          "Rolland, Romain",
-          "Yarros, Rebecca",
-          "Molière"
-        ],
-        "correctAnswer": "Zibura, Ladislav",
-        "enableIf": "{answer11} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer12",
-        "title": "Ve kterém roce jsi přečetla knihu 'Legendy & latéčka (Legendy & latéčka, #1)'?",
-        "choices": [
-          "2022",
-          "2021",
-          "2024",
-          "2023"
-        ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer12} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer13",
-        "title": "Kdo napsal knihu knihu 'Legendy & latéčka (Legendy & latéčka, #1)'?",
-        "choices": [
-          "Martin, George R.R.",
-          "Zhao, Xiran Jay",
           "Baldree, Travis",
-          "Rožek, Filip"
+          "Hrabal, Bohumil",
+          "Goldoni, Carlo",
+          "Yarros, Rebecca"
         ],
-        "correctAnswer": "Baldree, Travis",
-        "enableIf": "{answer13} empty"
+        "correctAnswer": "Goldoni, Carlo",
+        "enableIf": "{answer119} empty"
       }
     ]
   },
@@ -84,16 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer14",
-        "title": "Ve kterém roce jsi přečetla knihu '…stačilo jen říct Jáchymov'?",
+        "name": "answer1",
+        "title": "Kdo napsal knihu knihu 'Národní opruzení'?",
         "choices": [
-          "2022",
-          "2021",
-          "2024",
-          "2023"
+          "Nguyễn Phan Quế Mai",
+          "Komrsková, Alžběta",
+          "Meixnerová, Karolína Zoe",
+          "Collins, Suzanne"
         ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer14} empty"
+        "correctAnswer": "Meixnerová, Karolína Zoe",
+        "enableIf": "{answer1} empty"
       }
     ]
   },
@@ -101,33 +50,101 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer15",
-        "title": "Kdo napsal knihu knihu '…stačilo jen říct Jáchymov'?",
+        "name": "answer128",
+        "title": "Ve kterém roce jsi přečetla knihu 'Krev elfů (Zaklínač, #3)'?",
         "choices": [
-          "Strnadová, Anna",
-          "Fitzgerald, F. Scott",
-          "Fuks, Ladislav",
-          "Tung, Debbie"
-        ],
-        "correctAnswer": "Strnadová, Anna",
-        "enableIf": "{answer15} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer16",
-        "title": "Ve kterém roce jsi přečetla knihu 'Spare'?",
-        "choices": [
-          "2021",
           "2023",
+          "2021",
           "2024",
           "2022"
         ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer16} empty"
+        "correctAnswer": "2022",
+        "enableIf": "{answer128} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer157",
+        "title": "Kdo napsal knihu knihu 'Trhlina'?",
+        "choices": [
+          "Owens, Delia",
+          "Nesbø, Jo",
+          "Hrabal, Bohumil",
+          "Karika, Jozef"
+        ],
+        "correctAnswer": "Karika, Jozef",
+        "enableIf": "{answer157} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer7",
+        "title": "Kdo napsal knihu knihu 'Bookshops & Bonedust (Legends & Lattes, #0)'?",
+        "choices": [
+          "Karolová, Kateřina",
+          "Baldree, Travis",
+          "Frank, Sylvia",
+          "Fitzgerald, F. Scott"
+        ],
+        "correctAnswer": "Baldree, Travis",
+        "enableIf": "{answer7} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer97",
+        "title": "Kdo napsal knihu knihu 'Alchymista (Tajemství nesmrtelného Nicholase Flamela, #1)'?",
+        "choices": [
+          "Scott, Michael",
+          "Owens, Delia",
+          "Sapkowski, Andrzej",
+          "Wilde, Oscar"
+        ],
+        "correctAnswer": "Scott, Michael",
+        "enableIf": "{answer97} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer76",
+        "title": "Ve kterém roce jsi přečetla knihu 'Dva proti Říši'?",
+        "choices": [
+          "2022",
+          "2023",
+          "2024",
+          "2021"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer76} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer28",
+        "title": "Ve kterém roce jsi přečetla knihu 'Gala & Dalí: Nerozluční'?",
+        "choices": [
+          "2022",
+          "2024",
+          "2023",
+          "2021"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer28} empty"
       }
     ]
   },
@@ -138,10 +155,10 @@
         "name": "answer17",
         "title": "Kdo napsal knihu knihu 'Spare'?",
         "choices": [
-          "Zhao, Xiran Jay",
+          "Townsend, Jessica",
+          "Gogol, Nikolai",
           "Prince Harry",
-          "Podolová, Petra",
-          "Schwab, Victoria"
+          "Molière"
         ],
         "correctAnswer": "Prince Harry",
         "enableIf": "{answer17} empty"
@@ -152,33 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer18",
-        "title": "Ve kterém roce jsi přečetla knihu 'Šikmý kostel: románová kronika ztraceného města (léta 1894 - 1921)'?",
+        "name": "answer21",
+        "title": "Kdo napsal knihu knihu 'Šarlatán'?",
         "choices": [
-          "2022",
-          "2024",
-          "2020",
-          "2021"
+          "Motte, Anders de la",
+          "Strnadová, Anna",
+          "Klíma, Josef",
+          "Lamková, Hana"
         ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer18} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer19",
-        "title": "Kdo napsal knihu knihu 'Šikmý kostel: románová kronika ztraceného města (léta 1894 - 1921)'?",
-        "choices": [
-          "Doyle, Arthur Conan",
-          "Lednická, Karin",
-          "Christie, Agatha",
-          "Caplin, Julie"
-        ],
-        "correctAnswer": "Lednická, Karin",
-        "enableIf": "{answer19} empty"
+        "correctAnswer": "Klíma, Josef",
+        "enableIf": "{answer21} empty"
       }
     ]
   }

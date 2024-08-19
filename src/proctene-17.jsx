@@ -16,12 +16,63 @@
     "elements": [
       {
         "type": "radiogroup",
+        "name": "answer182",
+        "title": "Ve kterém roce jsi přečetla knihu 'Vražedná pomsta (The Hunger Games, #2)'?",
+        "choices": [
+          "2024",
+          "2023",
+          "2022",
+          "2020"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer182} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer43",
+        "title": "Kdo napsal knihu knihu 'Pěšky mezi buddhisty a komunisty'?",
+        "choices": [
+          "Zibura, Ladislav",
+          "Caplin, Julie",
+          "Goldoni, Carlo",
+          "Baldree, Travis"
+        ],
+        "correctAnswer": "Zibura, Ladislav",
+        "enableIf": "{answer43} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer136",
+        "title": "Ve kterém roce jsi přečetla knihu 'Bouře mečů (Píseň ledu a ohně, #3)'?",
+        "choices": [
+          "2020",
+          "2023",
+          "2024",
+          "2022"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer136} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
         "name": "answer160",
         "title": "Ve kterém roce jsi přečetla knihu 'Kavárna v Kodani (Romantické útěky, #1)'?",
         "choices": [
-          "2024",
           "2021",
-          "2022",
+          "2024",
+          "2020",
           "2023"
         ],
         "correctAnswer": "2021",
@@ -33,16 +84,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer161",
-        "title": "Kdo napsal knihu knihu 'Kavárna v Kodani (Romantické útěky, #1)'?",
+        "name": "answer51",
+        "title": "Kdo napsal knihu knihu 'Ostře sledované vlaky'?",
+        "choices": [
+          "Collins, Suzanne",
+          "Mayne, Andrew",
+          "Hrabal, Bohumil",
+          "Christie, Agatha"
+        ],
+        "correctAnswer": "Hrabal, Bohumil",
+        "enableIf": "{answer51} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer37",
+        "title": "Kdo napsal knihu knihu 'Šlehačková oblaka'?",
         "choices": [
           "Salte, Tereza",
-          "Zibura, Ladislav",
-          "Bílková, Alžběta",
-          "Caplin, Julie"
+          "Pavel, Ota",
+          "Jonasson, Jonas",
+          "Rina, Lin"
         ],
-        "correctAnswer": "Caplin, Julie",
-        "enableIf": "{answer161} empty"
+        "correctAnswer": "Salte, Tereza",
+        "enableIf": "{answer37} empty"
       }
     ]
   },
@@ -50,16 +118,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer162",
-        "title": "Ve kterém roce jsi přečetla knihu 'Supernova (Renegades, #3)'?",
+        "name": "answer65",
+        "title": "Kdo napsal knihu knihu '451 stupňů Fahrenheita'?",
         "choices": [
-          "2024",
-          "2021",
-          "2023",
-          "2020"
+          "Mayne, Andrew",
+          "Bradbury, Ray",
+          "Dalcher, Christina",
+          "Hrabal, Bohumil"
         ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer162} empty"
+        "correctAnswer": "Bradbury, Ray",
+        "enableIf": "{answer65} empty"
       }
     ]
   },
@@ -67,50 +135,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer163",
-        "title": "Kdo napsal knihu knihu 'Supernova (Renegades, #3)'?",
+        "name": "answer30",
+        "title": "Ve kterém roce jsi přečetla knihu 'Josef Mareš: Moje případy z 1. oddělení'?",
         "choices": [
-          "Steinbeck, John",
-          "Gogol, Nikolai",
-          "Meyer, Marissa",
-          "Rowling, J.K."
-        ],
-        "correctAnswer": "Meyer, Marissa",
-        "enableIf": "{answer163} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer164",
-        "title": "Ve kterém roce jsi přečetla knihu 'Futurum'?",
-        "choices": [
-          "2021",
-          "2023",
           "2022",
-          "2020"
+          "2020",
+          "2024",
+          "2023"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer30} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer190",
+        "title": "Ve kterém roce jsi přečetla knihu 'Poutník, čarodějnice a červ (Příběhy z Alagaësie #1)'?",
+        "choices": [
+          "2020",
+          "2023",
+          "2024",
+          "2022"
         ],
         "correctAnswer": "2020",
-        "enableIf": "{answer164} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer165",
-        "title": "Kdo napsal knihu knihu 'Futurum'?",
-        "choices": [
-          "Podolová, Petra",
-          "Klabouchová, Petra",
-          "Collins, Suzanne",
-          "Němcová, Božena"
-        ],
-        "correctAnswer": "Podolová, Petra",
-        "enableIf": "{answer165} empty"
+        "enableIf": "{answer190} empty"
       }
     ]
   },
@@ -122,63 +173,12 @@
         "title": "Ve kterém roce jsi přečetla knihu 'Revizor'?",
         "choices": [
           "2024",
-          "2023",
           "2020",
-          "2021"
+          "2021",
+          "2022"
         ],
         "correctAnswer": "2020",
         "enableIf": "{answer166} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer167",
-        "title": "Kdo napsal knihu knihu 'Revizor'?",
-        "choices": [
-          "Ferrante, Elena",
-          "Zibura, Ladislav",
-          "Gogol, Nikolai",
-          "Bílková, Alžběta"
-        ],
-        "correctAnswer": "Gogol, Nikolai",
-        "enableIf": "{answer167} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer168",
-        "title": "Ve kterém roce jsi přečetla knihu 'Protivníci (Renegáti, #2)'?",
-        "choices": [
-          "2021",
-          "2022",
-          "2020",
-          "2023"
-        ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer168} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer169",
-        "title": "Kdo napsal knihu knihu 'Protivníci (Renegáti, #2)'?",
-        "choices": [
-          "Komrsková, Alžběta",
-          "Meyer, Marissa",
-          "Holland, Sam",
-          "Rowling, J.K."
-        ],
-        "correctAnswer": "Meyer, Marissa",
-        "enableIf": "{answer169} empty"
       }
     ]
   }

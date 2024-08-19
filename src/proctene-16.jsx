@@ -16,8 +16,161 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer150",
-        "title": "Ve kterém roce jsi přečetla knihu 'Dcera ztracených bohů'?",
+        "name": "answer191",
+        "title": "Kdo napsal knihu knihu 'Poutník, čarodějnice a červ (Příběhy z Alagaësie #1)'?",
+        "choices": [
+          "Holland, Sam",
+          "Paolini, Christopher",
+          "Motte, Anders de la",
+          "Schwab, Victoria"
+        ],
+        "correctAnswer": "Paolini, Christopher",
+        "enableIf": "{answer191} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer79",
+        "title": "Kdo napsal knihu knihu 'Smrt krásných srnců'?",
+        "choices": [
+          "Holland, Sam",
+          "Pavel, Ota",
+          "Čechová, Miřenka",
+          "Rina, Lin"
+        ],
+        "correctAnswer": "Pavel, Ota",
+        "enableIf": "{answer79} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer194",
+        "title": "Ve kterém roce jsi přečetla knihu 'Střet králů (Píseň ledu a ohně, #2)'?",
+        "choices": [
+          "2020",
+          "2023",
+          "2022",
+          "2021"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer194} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer49",
+        "title": "Kdo napsal knihu knihu 'Odbočka v lesích'?",
+        "choices": [
+          "Schwab, Victoria",
+          "Kinney, Jeff",
+          "Karolová, Kateřina",
+          "Owens, Delia"
+        ],
+        "correctAnswer": "Karolová, Kateřina",
+        "enableIf": "{answer49} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer143",
+        "title": "Kdo napsal knihu knihu 'R.U.R. By Karel Čapek'?",
+        "choices": [
+          "Doyle, Arthur Conan",
+          "Čapek, Karel",
+          "Dyk, Viktor",
+          "Špitálníková, Nina"
+        ],
+        "correctAnswer": "Čapek, Karel",
+        "enableIf": "{answer143} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer105",
+        "title": "Kdo napsal knihu knihu 'Kde zpívají raci'?",
+        "choices": [
+          "Townsend, Jessica",
+          "Owens, Delia",
+          "Lamková, Hana",
+          "Rožek, Filip"
+        ],
+        "correctAnswer": "Owens, Delia",
+        "enableIf": "{answer105} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer82",
+        "title": "Ve kterém roce jsi přečetla knihu 'Zlodějka příběhů'?",
+        "choices": [
+          "2024",
+          "2023",
+          "2020",
+          "2022"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer82} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer137",
+        "title": "Kdo napsal knihu knihu 'Bouře mečů (Píseň ledu a ohně, #3)'?",
+        "choices": [
+          "Martin, George R.R.",
+          "Karika, Jozef",
+          "Hrabal, Bohumil",
+          "Havel, Václav"
+        ],
+        "correctAnswer": "Martin, George R.R.",
+        "enableIf": "{answer137} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer22",
+        "title": "Ve kterém roce jsi přečetla knihu 'Hory zpívají'?",
+        "choices": [
+          "2023",
+          "2024",
+          "2020",
+          "2022"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer22} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer100",
+        "title": "Ve kterém roce jsi přečetla knihu 'Bílá nemoc'?",
         "choices": [
           "2020",
           "2021",
@@ -25,160 +178,7 @@
           "2024"
         ],
         "correctAnswer": "2021",
-        "enableIf": "{answer150} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer151",
-        "title": "Kdo napsal knihu knihu 'Dcera ztracených bohů'?",
-        "choices": [
-          "Komrsková, Alžběta",
-          "Martin, George R.R.",
-          "Pavel, Ota",
-          "Klíma, Josef"
-        ],
-        "correctAnswer": "Komrsková, Alžběta",
-        "enableIf": "{answer151} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer152",
-        "title": "Ve kterém roce jsi přečetla knihu 'Velký Gatsby'?",
-        "choices": [
-          "2021",
-          "2024",
-          "2022",
-          "2023"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer152} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer153",
-        "title": "Kdo napsal knihu knihu 'Velký Gatsby'?",
-        "choices": [
-          "Podolová, Petra",
-          "Pavel, Ota",
-          "Fitzgerald, F. Scott",
-          "Maupassant, Guy de"
-        ],
-        "correctAnswer": "Fitzgerald, F. Scott",
-        "enableIf": "{answer153} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer154",
-        "title": "Ve kterém roce jsi přečetla knihu 'Ze života knihomolky'?",
-        "choices": [
-          "2024",
-          "2022",
-          "2023",
-          "2021"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer154} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer155",
-        "title": "Kdo napsal knihu knihu 'Ze života knihomolky'?",
-        "choices": [
-          "Tolkien, J.R.R.",
-          "Tung, Debbie",
-          "Campbell, Jen",
-          "Podolová, Petra"
-        ],
-        "correctAnswer": "Tung, Debbie",
-        "enableIf": "{answer155} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer156",
-        "title": "Ve kterém roce jsi přečetla knihu 'Trhlina'?",
-        "choices": [
-          "2020",
-          "2021",
-          "2024",
-          "2022"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer156} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer157",
-        "title": "Kdo napsal knihu knihu 'Trhlina'?",
-        "choices": [
-          "Motte, Anders de la",
-          "Zibura, Ladislav",
-          "Komrsková, Alžběta",
-          "Karika, Jozef"
-        ],
-        "correctAnswer": "Karika, Jozef",
-        "enableIf": "{answer157} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer158",
-        "title": "Ve kterém roce jsi přečetla knihu 'Deník malého poseroutky: Zápisky Grega Heffleyho (Deník malého poseroutky, #1)'?",
-        "choices": [
-          "2024",
-          "2021",
-          "2020",
-          "2022"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer158} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer159",
-        "title": "Kdo napsal knihu knihu 'Deník malého poseroutky: Zápisky Grega Heffleyho (Deník malého poseroutky, #1)'?",
-        "choices": [
-          "Kinney, Jeff",
-          "Bílková, Alžběta",
-          "Sapkowski, Andrzej",
-          "Karolová, Kateřina"
-        ],
-        "correctAnswer": "Kinney, Jeff",
-        "enableIf": "{answer159} empty"
+        "enableIf": "{answer100} empty"
       }
     ]
   }

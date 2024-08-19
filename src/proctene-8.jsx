@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer70",
-        "title": "Ve kterém roce jsi přečetla knihu 'Co mě naučil tučňák'?",
+        "name": "answer116",
+        "title": "Ve kterém roce jsi přečetla knihu 'Jak je důležité míti Filipa'?",
         "choices": [
-          "2021",
-          "2023",
+          "2022",
+          "2020",
           "2024",
-          "2022"
+          "2023"
         ],
         "correctAnswer": "2022",
-        "enableIf": "{answer70} empty"
+        "enableIf": "{answer116} empty"
       }
     ]
   },
@@ -33,33 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer71",
-        "title": "Kdo napsal knihu knihu 'Co mě naučil tučňák'?",
+        "name": "answer18",
+        "title": "Ve kterém roce jsi přečetla knihu 'Šikmý kostel: románová kronika ztraceného města (léta 1894 - 1921)'?",
         "choices": [
-          "Townsend, Jessica",
-          "Michell, Tom",
-          "Moravec, Martin",
-          "Rowling, J.K."
-        ],
-        "correctAnswer": "Michell, Tom",
-        "enableIf": "{answer71} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer72",
-        "title": "Ve kterém roce jsi přečetla knihu 'Mráz (Detektiv Martin Servaz, #1)'?",
-        "choices": [
-          "2020",
-          "2022",
           "2023",
+          "2022",
+          "2024",
           "2021"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer72} empty"
+        "correctAnswer": "2024",
+        "enableIf": "{answer18} empty"
       }
     ]
   },
@@ -67,16 +50,84 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer73",
-        "title": "Kdo napsal knihu knihu 'Mráz (Detektiv Martin Servaz, #1)'?",
+        "name": "answer192",
+        "title": "Ve kterém roce jsi přečetla knihu 'The Hunger Games (The Hunger Games, #1)'?",
         "choices": [
-          "Kinney, Jeff",
-          "Minier, Bernard",
-          "Bílková, Alžběta",
-          "Sapkowski, Andrzej"
+          "2023",
+          "2024",
+          "2021",
+          "2020"
         ],
-        "correctAnswer": "Minier, Bernard",
-        "enableIf": "{answer73} empty"
+        "correctAnswer": "2020",
+        "enableIf": "{answer192} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer124",
+        "title": "Ve kterém roce jsi přečetla knihu 'Petr a Lucie'?",
+        "choices": [
+          "2021",
+          "2022",
+          "2020",
+          "2024"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer124} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer113",
+        "title": "Kdo napsal knihu knihu 'Pes Baskervilský: Další dobrodružství Sherlocka Holmese'?",
+        "choices": [
+          "Lewis, C.S.",
+          "Doyle, Arthur Conan",
+          "Mrštík, Alois",
+          "Meyer, Marissa"
+        ],
+        "correctAnswer": "Doyle, Arthur Conan",
+        "enableIf": "{answer113} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer104",
+        "title": "Ve kterém roce jsi přečetla knihu 'Kde zpívají raci'?",
+        "choices": [
+          "2022",
+          "2024",
+          "2021",
+          "2020"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer104} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer162",
+        "title": "Ve kterém roce jsi přečetla knihu 'Supernova (Renegades, #3)'?",
+        "choices": [
+          "2020",
+          "2024",
+          "2021",
+          "2022"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer162} empty"
       }
     ]
   },
@@ -88,9 +139,9 @@
         "title": "Ve kterém roce jsi přečetla knihu 'Poupátka'?",
         "choices": [
           "2022",
-          "2024",
           "2020",
-          "2023"
+          "2024",
+          "2021"
         ],
         "correctAnswer": "2022",
         "enableIf": "{answer74} empty"
@@ -101,67 +152,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer75",
-        "title": "Kdo napsal knihu knihu 'Poupátka'?",
+        "name": "answer132",
+        "title": "Ve kterém roce jsi přečetla knihu 'Příliš mnoho Kateřin'?",
         "choices": [
-          "Cline, Ernest",
-          "Borovský, Karel Havlíček",
-          "Lehečková, Hana",
-          "Baldree, Travis"
-        ],
-        "correctAnswer": "Lehečková, Hana",
-        "enableIf": "{answer75} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer76",
-        "title": "Ve kterém roce jsi přečetla knihu 'Dva proti Říši'?",
-        "choices": [
-          "2022",
-          "2024",
-          "2020",
-          "2021"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer76} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer77",
-        "title": "Kdo napsal knihu knihu 'Dva proti Říši'?",
-        "choices": [
-          "Pavel, Ota",
-          "Karolová, Kateřina",
-          "Šulc, Jiří",
-          "Goldoni, Carlo"
-        ],
-        "correctAnswer": "Šulc, Jiří",
-        "enableIf": "{answer77} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer78",
-        "title": "Ve kterém roce jsi přečetla knihu 'Smrt krásných srnců'?",
-        "choices": [
-          "2024",
-          "2020",
           "2021",
-          "2023"
+          "2023",
+          "2022",
+          "2020"
         ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer78} empty"
+        "correctAnswer": "2021",
+        "enableIf": "{answer132} empty"
       }
     ]
   },
@@ -169,16 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer79",
-        "title": "Kdo napsal knihu knihu 'Smrt krásných srnců'?",
+        "name": "answer155",
+        "title": "Kdo napsal knihu knihu 'Ze života knihomolky'?",
         "choices": [
-          "Pavel, Ota",
-          "Jirotka, Zdeněk",
-          "Steinbeck, John",
-          "Hrabal, Bohumil"
+          "Tung, Debbie",
+          "Fuks, Ladislav",
+          "Motte, Anders de la",
+          "Pavel, Ota"
         ],
-        "correctAnswer": "Pavel, Ota",
-        "enableIf": "{answer79} empty"
+        "correctAnswer": "Tung, Debbie",
+        "enableIf": "{answer155} empty"
       }
     ]
   }

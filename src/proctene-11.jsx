@@ -16,16 +16,67 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer100",
-        "title": "Ve kterém roce jsi přečetla knihu 'Bílá nemoc'?",
+        "name": "answer164",
+        "title": "Ve kterém roce jsi přečetla knihu 'Futurum'?",
         "choices": [
           "2021",
-          "2023",
           "2024",
+          "2022",
           "2020"
         ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer100} empty"
+        "correctAnswer": "2020",
+        "enableIf": "{answer164} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer193",
+        "title": "Kdo napsal knihu knihu 'The Hunger Games (The Hunger Games, #1)'?",
+        "choices": [
+          "Ferrante, Elena",
+          "Collins, Suzanne",
+          "Scott, Michael",
+          "Hrabal, Bohumil"
+        ],
+        "correctAnswer": "Collins, Suzanne",
+        "enableIf": "{answer193} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer25",
+        "title": "Kdo napsal knihu knihu 'Smrt číhá na jarmarku'?",
+        "choices": [
+          "Rowling, J.K.",
+          "Motte, Anders de la",
+          "Klevisová, Michaela",
+          "Sapkowski, Andrzej"
+        ],
+        "correctAnswer": "Motte, Anders de la",
+        "enableIf": "{answer25} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer125",
+        "title": "Kdo napsal knihu knihu 'Petr a Lucie'?",
+        "choices": [
+          "Prince Harry",
+          "Maupassant, Guy de",
+          "Nguyễn Phan Quế Mai",
+          "Rolland, Romain"
+        ],
+        "correctAnswer": "Rolland, Romain",
+        "enableIf": "{answer125} empty"
       }
     ]
   },
@@ -36,10 +87,10 @@
         "name": "answer101",
         "title": "Kdo napsal knihu knihu 'Bílá nemoc'?",
         "choices": [
-          "Špitálníková, Nina",
-          "Hrabal, Bohumil",
-          "Čapek, Karel",
-          "Karika, Jozef"
+          "Steinbeck, John",
+          "Karolová, Kateřina",
+          "Caplin, Julie",
+          "Čapek, Karel"
         ],
         "correctAnswer": "Čapek, Karel",
         "enableIf": "{answer101} empty"
@@ -50,118 +101,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer102",
-        "title": "Ve kterém roce jsi přečetla knihu 'Kroky vraha'?",
+        "name": "answer38",
+        "title": "Ve kterém roce jsi přečetla knihu 'Nikdyuš. Zkoušky, jež podstoupila Morrigan Crowová (Nikdyuš #1)'?",
         "choices": [
+          "2024",
           "2020",
-          "2022",
-          "2021",
-          "2023"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer102} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer103",
-        "title": "Kdo napsal knihu knihu 'Kroky vraha'?",
-        "choices": [
-          "Mrštík, Alois",
-          "Lewis, C.S.",
-          "Klevisová, Michaela",
-          "Minier, Bernard"
-        ],
-        "correctAnswer": "Klevisová, Michaela",
-        "enableIf": "{answer103} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer104",
-        "title": "Ve kterém roce jsi přečetla knihu 'Kde zpívají raci'?",
-        "choices": [
-          "2022",
-          "2021",
-          "2024",
-          "2020"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer104} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer105",
-        "title": "Kdo napsal knihu knihu 'Kde zpívají raci'?",
-        "choices": [
-          "Green, John",
-          "Klíma, Josef",
-          "Owens, Delia",
-          "Rina, Lin"
-        ],
-        "correctAnswer": "Owens, Delia",
-        "enableIf": "{answer105} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer106",
-        "title": "Ve kterém roce jsi přečetla knihu 'Kroniky prachu (Kroniky prachu, #1)'?",
-        "choices": [
-          "2021",
-          "2024",
-          "2022",
-          "2020"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer106} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer107",
-        "title": "Kdo napsal knihu knihu 'Kroniky prachu (Kroniky prachu, #1)'?",
-        "choices": [
-          "Borovský, Karel Havlíček",
-          "Lednická, Karin",
-          "Rina, Lin",
-          "Klíma, Josef"
-        ],
-        "correctAnswer": "Rina, Lin",
-        "enableIf": "{answer107} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer108",
-        "title": "Ve kterém roce jsi přečetla knihu 'Lev, čarodějnice a skříň (Letopisy Narnie, #2)'?",
-        "choices": [
           "2023",
+          "2021"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer38} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer27",
+        "title": "Kdo napsal knihu knihu 'Železná vdova (Železná vdova, #1)'?",
+        "choices": [
+          "Zhao, Xiran Jay",
+          "Shakespeare, William",
+          "Shaw, George Bernard",
+          "Lewis, C.S."
+        ],
+        "correctAnswer": "Zhao, Xiran Jay",
+        "enableIf": "{answer27} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer188",
+        "title": "Ve kterém roce jsi přečetla knihu 'Teorie vraždy'?",
+        "choices": [
           "2020",
-          "2021",
+          "2024",
+          "2023",
           "2022"
         ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer108} empty"
+        "correctAnswer": "2020",
+        "enableIf": "{answer188} empty"
       }
     ]
   },
@@ -169,16 +152,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer109",
-        "title": "Kdo napsal knihu knihu 'Lev, čarodějnice a skříň (Letopisy Narnie, #2)'?",
+        "name": "answer174",
+        "title": "Ve kterém roce jsi přečetla knihu 'Král Lávra'?",
         "choices": [
-          "Mrštík, Alois",
-          "Maupassant, Guy de",
-          "Lewis, C.S.",
-          "Paolini, Christopher"
+          "2020",
+          "2023",
+          "2022",
+          "2024"
         ],
-        "correctAnswer": "Lewis, C.S.",
-        "enableIf": "{answer109} empty"
+        "correctAnswer": "2020",
+        "enableIf": "{answer174} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer8",
+        "title": "Ve kterém roce jsi přečetla knihu 'Ignis fatuus'?",
+        "choices": [
+          "2021",
+          "2023",
+          "2024",
+          "2020"
+        ],
+        "correctAnswer": "2024",
+        "enableIf": "{answer8} empty"
       }
     ]
   }

@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer170",
-        "title": "Ve kterém roce jsi přečetla knihu 'Renegáti (Renegáti, #1)'?",
+        "name": "answer47",
+        "title": "Kdo napsal knihu knihu 'Fantastická zvířata: Brumbálova tajemství - úplný scénář'?",
         "choices": [
-          "2024",
-          "2022",
-          "2020",
-          "2023"
+          "Šulc, Jiří",
+          "Havel, Václav",
+          "Rowling, J.K.",
+          "Kinney, Jeff"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer170} empty"
+        "correctAnswer": "Rowling, J.K.",
+        "enableIf": "{answer47} empty"
       }
     ]
   },
@@ -33,16 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer171",
-        "title": "Kdo napsal knihu knihu 'Renegáti (Renegáti, #1)'?",
+        "name": "answer29",
+        "title": "Kdo napsal knihu knihu 'Gala & Dalí: Nerozluční'?",
         "choices": [
-          "Tolkien, J.R.R.",
-          "Strnadová, Anna",
-          "Meyer, Marissa",
-          "Komrsková, Alžběta"
+          "Orwell, George",
+          "Salte, Tereza",
+          "Frank, Sylvia",
+          "Yarros, Rebecca"
         ],
-        "correctAnswer": "Meyer, Marissa",
-        "enableIf": "{answer171} empty"
+        "correctAnswer": "Frank, Sylvia",
+        "enableIf": "{answer29} empty"
       }
     ]
   },
@@ -50,50 +50,84 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer172",
-        "title": "Ve kterém roce jsi přečetla knihu 'The Lying Life of Adults'?",
-        "choices": [
-          "2024",
-          "2021",
-          "2022",
-          "2020"
-        ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer172} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer173",
-        "title": "Kdo napsal knihu knihu 'The Lying Life of Adults'?",
-        "choices": [
-          "Steinbeck, John",
-          "Ferrante, Elena",
-          "Zibura, Ladislav",
-          "Dyk, Viktor"
-        ],
-        "correctAnswer": "Ferrante, Elena",
-        "enableIf": "{answer173} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer174",
-        "title": "Ve kterém roce jsi přečetla knihu 'Král Lávra'?",
+        "name": "answer80",
+        "title": "Ve kterém roce jsi přečetla knihu 'Doktor Proktor a velká loupež zlata (Doktor Proktor #4)'?",
         "choices": [
           "2022",
           "2020",
-          "2021",
+          "2023",
+          "2021"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer80} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer36",
+        "title": "Ve kterém roce jsi přečetla knihu 'Šlehačková oblaka'?",
+        "choices": [
+          "2023",
+          "2020",
+          "2024",
+          "2022"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer36} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer45",
+        "title": "Kdo napsal knihu knihu 'Naslouchač (Naslouchač, #1)'?",
+        "choices": [
+          "Špitálníková, Nina",
+          "Stehlíková, Petra",
+          "Dalcher, Christina",
+          "Bradbury, Ray"
+        ],
+        "correctAnswer": "Stehlíková, Petra",
+        "enableIf": "{answer45} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer69",
+        "title": "Kdo napsal knihu knihu 'Divá Bára'?",
+        "choices": [
+          "Rina, Lin",
+          "Gogol, Nikolai",
+          "Doyle, Arthur Conan",
+          "Němcová, Božena"
+        ],
+        "correctAnswer": "Němcová, Božena",
+        "enableIf": "{answer69} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer0",
+        "title": "Ve kterém roce jsi přečetla knihu 'Národní opruzení'?",
+        "choices": [
+          "2022",
+          "2023",
+          "2020",
           "2024"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer174} empty"
+        "correctAnswer": "2024",
+        "enableIf": "{answer0} empty"
       }
     ]
   },
@@ -101,16 +135,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer175",
-        "title": "Kdo napsal knihu knihu 'Král Lávra'?",
+        "name": "answer34",
+        "title": "Ve kterém roce jsi přečetla knihu 'Kopírák'?",
         "choices": [
-          "Borovský, Karel Havlíček",
-          "Karolová, Kateřina",
-          "Rožek, Filip",
-          "Moravec, Martin"
+          "2020",
+          "2022",
+          "2024",
+          "2023"
         ],
-        "correctAnswer": "Borovský, Karel Havlíček",
-        "enableIf": "{answer175} empty"
+        "correctAnswer": "2023",
+        "enableIf": "{answer34} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer148",
+        "title": "Ve kterém roce jsi přečetla knihu 'Kulička'?",
+        "choices": [
+          "2021",
+          "2020",
+          "2022",
+          "2023"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer148} empty"
       }
     ]
   },
@@ -121,64 +172,13 @@
         "name": "answer176",
         "title": "Ve kterém roce jsi přečetla knihu '4 Starodávné příběhy Čtyřlístku'?",
         "choices": [
-          "2024",
-          "2021",
           "2022",
+          "2023",
+          "2024",
           "2020"
         ],
         "correctAnswer": "2020",
         "enableIf": "{answer176} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer177",
-        "title": "Kdo napsal knihu knihu '4 Starodávné příběhy Čtyřlístku'?",
-        "choices": [
-          "Shaw, George Bernard",
-          "Rowling, J.K.",
-          "Baldree, Travis",
-          "Lamková, Hana"
-        ],
-        "correctAnswer": "Lamková, Hana",
-        "enableIf": "{answer177} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer178",
-        "title": "Ve kterém roce jsi přečetla knihu 'Síla vzdoru (The Hunger Games, #3)'?",
-        "choices": [
-          "2023",
-          "2022",
-          "2024",
-          "2020"
-        ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer178} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer179",
-        "title": "Kdo napsal knihu knihu 'Síla vzdoru (The Hunger Games, #3)'?",
-        "choices": [
-          "Collins, Suzanne",
-          "Pavel, Ota",
-          "Tolkien, J.R.R.",
-          "Green, John"
-        ],
-        "correctAnswer": "Collins, Suzanne",
-        "enableIf": "{answer179} empty"
       }
     ]
   }

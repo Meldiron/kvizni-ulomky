@@ -16,13 +16,98 @@
     "elements": [
       {
         "type": "radiogroup",
+        "name": "answer23",
+        "title": "Kdo napsal knihu knihu 'Hory zpívají'?",
+        "choices": [
+          "Nguyễn Phan Quế Mai",
+          "Campbell, Jen",
+          "Kovář, Karel Kovy",
+          "Vrchlický, Jaroslav"
+        ],
+        "correctAnswer": "Nguyễn Phan Quế Mai",
+        "enableIf": "{answer23} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer48",
+        "title": "Ve kterém roce jsi přečetla knihu 'Odbočka v lesích'?",
+        "choices": [
+          "2022",
+          "2021",
+          "2024",
+          "2023"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer48} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer20",
+        "title": "Ve kterém roce jsi přečetla knihu 'Šarlatán'?",
+        "choices": [
+          "2020",
+          "2021",
+          "2024",
+          "2023"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer20} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer77",
+        "title": "Kdo napsal knihu knihu 'Dva proti Říši'?",
+        "choices": [
+          "Lamková, Hana",
+          "Šulc, Jiří",
+          "Čapek, Karel",
+          "Karolová, Kateřina"
+        ],
+        "correctAnswer": "Šulc, Jiří",
+        "enableIf": "{answer77} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer88",
+        "title": "Ve kterém roce jsi přečetla knihu '1984'?",
+        "choices": [
+          "2021",
+          "2020",
+          "2022",
+          "2024"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer88} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
         "name": "answer110",
         "title": "Ve kterém roce jsi přečetla knihu 'O myších a lidech'?",
         "choices": [
-          "2022",
-          "2020",
+          "2023",
+          "2024",
           "2021",
-          "2024"
+          "2022"
         ],
         "correctAnswer": "2021",
         "enableIf": "{answer110} empty"
@@ -33,16 +118,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer111",
-        "title": "Kdo napsal knihu knihu 'O myších a lidech'?",
+        "name": "answer53",
+        "title": "Kdo napsal knihu knihu 'Baletky'?",
         "choices": [
-          "Owens, Delia",
-          "Steinbeck, John",
-          "Tung, Debbie",
-          "Prince Harry"
+          "Zibura, Ladislav",
+          "Čechová, Miřenka",
+          "Sapkowski, Andrzej",
+          "Yarros, Rebecca"
         ],
-        "correctAnswer": "Steinbeck, John",
-        "enableIf": "{answer111} empty"
+        "correctAnswer": "Čechová, Miřenka",
+        "enableIf": "{answer53} empty"
       }
     ]
   },
@@ -50,135 +135,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer112",
-        "title": "Ve kterém roce jsi přečetla knihu 'Pes Baskervilský: Další dobrodružství Sherlocka Holmese'?",
+        "name": "answer147",
+        "title": "Kdo napsal knihu knihu 'Tma'?",
         "choices": [
-          "2024",
-          "2022",
-          "2021",
-          "2023"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer112} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer113",
-        "title": "Kdo napsal knihu knihu 'Pes Baskervilský: Další dobrodružství Sherlocka Holmese'?",
-        "choices": [
-          "Maupassant, Guy de",
-          "Caplin, Julie",
-          "Motte, Anders de la",
-          "Doyle, Arthur Conan"
-        ],
-        "correctAnswer": "Doyle, Arthur Conan",
-        "enableIf": "{answer113} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer114",
-        "title": "Ve kterém roce jsi přečetla knihu 'Kosti Mraza'?",
-        "choices": [
-          "2023",
-          "2020",
-          "2021",
-          "2024"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer114} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer115",
-        "title": "Kdo napsal knihu knihu 'Kosti Mraza'?",
-        "choices": [
-          "Rožek, Filip",
-          "Bílková, Alžběta",
-          "Nesbø, Jo",
-          "Molière"
-        ],
-        "correctAnswer": "Bílková, Alžběta",
-        "enableIf": "{answer115} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer116",
-        "title": "Ve kterém roce jsi přečetla knihu 'Jak je důležité míti Filipa'?",
-        "choices": [
-          "2022",
-          "2023",
-          "2020",
-          "2021"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer116} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer117",
-        "title": "Kdo napsal knihu knihu 'Jak je důležité míti Filipa'?",
-        "choices": [
-          "Wilde, Oscar",
-          "Holland, Sam",
-          "Katalpa, Jakuba",
-          "Sapkowski, Andrzej"
-        ],
-        "correctAnswer": "Wilde, Oscar",
-        "enableIf": "{answer117} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer118",
-        "title": "Ve kterém roce jsi přečetla knihu 'Sluha dvou pánů'?",
-        "choices": [
-          "2024",
-          "2022",
-          "2021",
-          "2023"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer118} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer119",
-        "title": "Kdo napsal knihu knihu 'Sluha dvou pánů'?",
-        "choices": [
-          "Yarros, Rebecca",
-          "Goldoni, Carlo",
           "Karika, Jozef",
-          "Mayne, Andrew"
+          "Karolová, Kateřina",
+          "Riordan, Rick",
+          "Rina, Lin"
         ],
-        "correctAnswer": "Goldoni, Carlo",
-        "enableIf": "{answer119} empty"
+        "correctAnswer": "Karika, Jozef",
+        "enableIf": "{answer147} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer144",
+        "title": "Ve kterém roce jsi přečetla knihu 'Listopád'?",
+        "choices": [
+          "2021",
+          "2024",
+          "2022",
+          "2023"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer144} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer19",
+        "title": "Kdo napsal knihu knihu 'Šikmý kostel: románová kronika ztraceného města (léta 1894 - 1921)'?",
+        "choices": [
+          "Paolini, Christopher",
+          "Nguyễn Phan Quế Mai",
+          "Cline, Ernest",
+          "Lednická, Karin"
+        ],
+        "correctAnswer": "Lednická, Karin",
+        "enableIf": "{answer19} empty"
       }
     ]
   }

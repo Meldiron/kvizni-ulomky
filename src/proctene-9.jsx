@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer80",
-        "title": "Ve kterém roce jsi přečetla knihu 'Doktor Proktor a velká loupež zlata (Doktor Proktor #4)'?",
+        "name": "answer150",
+        "title": "Ve kterém roce jsi přečetla knihu 'Dcera ztracených bohů'?",
         "choices": [
-          "2021",
+          "2020",
           "2024",
-          "2022",
+          "2021",
           "2023"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer80} empty"
+        "correctAnswer": "2021",
+        "enableIf": "{answer150} empty"
       }
     ]
   },
@@ -33,67 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer81",
-        "title": "Kdo napsal knihu knihu 'Doktor Proktor a velká loupež zlata (Doktor Proktor #4)'?",
+        "name": "answer96",
+        "title": "Ve kterém roce jsi přečetla knihu 'Alchymista (Tajemství nesmrtelného Nicholase Flamela, #1)'?",
         "choices": [
-          "Klíma, Josef",
-          "Schwab, Victoria",
-          "Nesbø, Jo",
-          "Meixnerová, Karolína Zoe"
-        ],
-        "correctAnswer": "Nesbø, Jo",
-        "enableIf": "{answer81} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer82",
-        "title": "Ve kterém roce jsi přečetla knihu 'Zlodějka příběhů'?",
-        "choices": [
-          "2021",
-          "2022",
-          "2020",
-          "2024"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer82} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer83",
-        "title": "Kdo napsal knihu knihu 'Zlodějka příběhů'?",
-        "choices": [
-          "Karika, Jozef",
-          "Klevisová, Michaela",
-          "Katalpa, Jakuba",
-          "Collins, Suzanne"
-        ],
-        "correctAnswer": "Klevisová, Michaela",
-        "enableIf": "{answer83} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer84",
-        "title": "Ve kterém roce jsi přečetla knihu 'Hobit'?",
-        "choices": [
+          "2023",
           "2024",
-          "2022",
           "2021",
-          "2020"
+          "2022"
         ],
         "correctAnswer": "2022",
-        "enableIf": "{answer84} empty"
+        "enableIf": "{answer96} empty"
       }
     ]
   },
@@ -101,16 +50,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer85",
-        "title": "Kdo napsal knihu knihu 'Hobit'?",
+        "name": "answer15",
+        "title": "Kdo napsal knihu knihu '…stačilo jen říct Jáchymov'?",
         "choices": [
-          "Tolkien, J.R.R.",
-          "Zibura, Ladislav",
-          "Scott, Michael",
-          "Komrsková, Alžběta"
+          "Schwab, Victoria",
+          "Komrsková, Alžběta",
+          "Campbell, Jen",
+          "Strnadová, Anna"
         ],
-        "correctAnswer": "Tolkien, J.R.R.",
-        "enableIf": "{answer85} empty"
+        "correctAnswer": "Strnadová, Anna",
+        "enableIf": "{answer15} empty"
       }
     ]
   },
@@ -118,16 +67,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer86",
-        "title": "Ve kterém roce jsi přečetla knihu 'Neviditelný život Addie LaRue'?",
+        "name": "answer102",
+        "title": "Ve kterém roce jsi přečetla knihu 'Kroky vraha'?",
+        "choices": [
+          "2023",
+          "2021",
+          "2024",
+          "2022"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer102} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer185",
+        "title": "Kdo napsal knihu knihu 'Meč osudu (Zaklínač, #2)'?",
+        "choices": [
+          "Němcová, Božena",
+          "Rina, Lin",
+          "Campbell, Jen",
+          "Sapkowski, Andrzej"
+        ],
+        "correctAnswer": "Sapkowski, Andrzej",
+        "enableIf": "{answer185} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer180",
+        "title": "Ve kterém roce jsi přečetla knihu 'Divné hlášky z knihkupectví'?",
         "choices": [
           "2020",
           "2023",
-          "2022",
+          "2021",
           "2024"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer86} empty"
+        "correctAnswer": "2020",
+        "enableIf": "{answer180} empty"
       }
     ]
   },
@@ -135,16 +118,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer87",
-        "title": "Kdo napsal knihu knihu 'Neviditelný život Addie LaRue'?",
+        "name": "answer133",
+        "title": "Kdo napsal knihu knihu 'Příliš mnoho Kateřin'?",
         "choices": [
-          "Baldree, Travis",
-          "Moravec, Martin",
-          "Orwell, George",
-          "Schwab, Victoria"
+          "Tung, Debbie",
+          "Minier, Bernard",
+          "Havel, Václav",
+          "Green, John"
         ],
-        "correctAnswer": "Schwab, Victoria",
-        "enableIf": "{answer87} empty"
+        "correctAnswer": "Green, John",
+        "enableIf": "{answer133} empty"
       }
     ]
   },
@@ -152,16 +135,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer88",
-        "title": "Ve kterém roce jsi přečetla knihu '1984'?",
+        "name": "answer189",
+        "title": "Kdo napsal knihu knihu 'Teorie vraždy'?",
         "choices": [
-          "2022",
+          "Komrsková, Alžběta",
+          "Mayne, Andrew",
+          "Townsend, Jessica",
+          "Katalpa, Jakuba"
+        ],
+        "correctAnswer": "Mayne, Andrew",
+        "enableIf": "{answer189} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer44",
+        "title": "Ve kterém roce jsi přečetla knihu 'Naslouchač (Naslouchač, #1)'?",
+        "choices": [
           "2024",
+          "2023",
           "2020",
-          "2021"
+          "2022"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer88} empty"
+        "correctAnswer": "2023",
+        "enableIf": "{answer44} empty"
       }
     ]
   },
@@ -169,16 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer89",
-        "title": "Kdo napsal knihu knihu '1984'?",
+        "name": "answer122",
+        "title": "Ve kterém roce jsi přečetla knihu 'Vražda v Orient-expresu'?",
         "choices": [
-          "Scott, Michael",
-          "Paolini, Christopher",
-          "Fuks, Ladislav",
-          "Orwell, George"
+          "2021",
+          "2022",
+          "2020",
+          "2023"
         ],
-        "correctAnswer": "Orwell, George",
-        "enableIf": "{answer89} empty"
+        "correctAnswer": "2022",
+        "enableIf": "{answer122} empty"
       }
     ]
   }

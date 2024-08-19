@@ -16,50 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer180",
-        "title": "Ve kterém roce jsi přečetla knihu 'Divné hlášky z knihkupectví'?",
-        "choices": [
-          "2021",
-          "2023",
-          "2020",
-          "2022"
-        ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer180} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer181",
-        "title": "Kdo napsal knihu knihu 'Divné hlášky z knihkupectví'?",
-        "choices": [
-          "Wilde, Oscar",
-          "Tolkien, J.R.R.",
-          "Maupassant, Guy de",
-          "Campbell, Jen"
-        ],
-        "correctAnswer": "Campbell, Jen",
-        "enableIf": "{answer181} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer182",
-        "title": "Ve kterém roce jsi přečetla knihu 'Vražedná pomsta (The Hunger Games, #2)'?",
+        "name": "answer200",
+        "title": "Ve kterém roce jsi přečetla knihu 'Lakomec'?",
         "choices": [
           "2023",
-          "2020",
           "2021",
+          "2024",
           "2022"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer182} empty"
+        "correctAnswer": "2023",
+        "enableIf": "{answer200} empty"
       }
     ]
   },
@@ -67,33 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer183",
-        "title": "Kdo napsal knihu knihu 'Vražedná pomsta (The Hunger Games, #2)'?",
+        "name": "answer14",
+        "title": "Ve kterém roce jsi přečetla knihu '…stačilo jen říct Jáchymov'?",
         "choices": [
-          "Pavel, Ota",
-          "Motte, Anders de la",
-          "Baldree, Travis",
-          "Collins, Suzanne"
-        ],
-        "correctAnswer": "Collins, Suzanne",
-        "enableIf": "{answer183} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer184",
-        "title": "Ve kterém roce jsi přečetla knihu 'Meč osudu (Zaklínač, #2)'?",
-        "choices": [
-          "2020",
-          "2023",
           "2021",
-          "2022"
+          "2024",
+          "2022",
+          "2023"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer184} empty"
+        "correctAnswer": "2024",
+        "enableIf": "{answer14} empty"
       }
     ]
   },
@@ -101,67 +50,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer185",
-        "title": "Kdo napsal knihu knihu 'Meč osudu (Zaklínač, #2)'?",
-        "choices": [
-          "Goldoni, Carlo",
-          "Mayne, Andrew",
-          "Kovář, Karel Kovy",
-          "Sapkowski, Andrzej"
-        ],
-        "correctAnswer": "Sapkowski, Andrzej",
-        "enableIf": "{answer185} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer186",
-        "title": "Ve kterém roce jsi přečetla knihu 'iPohádka'?",
+        "name": "answer40",
+        "title": "Ve kterém roce jsi přečetla knihu 'Smrt přichází na prohlídku (Vraždy v Österlenu, #1)'?",
         "choices": [
           "2022",
           "2021",
-          "2020",
-          "2023"
-        ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer186} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer187",
-        "title": "Kdo napsal knihu knihu 'iPohádka'?",
-        "choices": [
-          "Lewis, C.S.",
-          "Jirotka, Zdeněk",
-          "Havel, Václav",
-          "Kovář, Karel Kovy"
-        ],
-        "correctAnswer": "Kovář, Karel Kovy",
-        "enableIf": "{answer187} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer188",
-        "title": "Ve kterém roce jsi přečetla knihu 'Teorie vraždy'?",
-        "choices": [
           "2023",
-          "2024",
+          "2024"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer40} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer140",
+        "title": "Ve kterém roce jsi přečetla knihu 'Utajené Orákulum (Apollónův pád, #1)'?",
+        "choices": [
           "2020",
+          "2023",
+          "2022",
           "2021"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer188} empty"
+        "correctAnswer": "2021",
+        "enableIf": "{answer140} empty"
       }
     ]
   },
@@ -169,16 +84,101 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer189",
-        "title": "Kdo napsal knihu knihu 'Teorie vraždy'?",
+        "name": "answer6",
+        "title": "Ve kterém roce jsi přečetla knihu 'Bookshops & Bonedust (Legends & Lattes, #0)'?",
         "choices": [
-          "Lednická, Karin",
-          "Lehečková, Hana",
-          "Mayne, Andrew",
-          "Christie, Agatha"
+          "2024",
+          "2023",
+          "2021",
+          "2022"
         ],
-        "correctAnswer": "Mayne, Andrew",
-        "enableIf": "{answer189} empty"
+        "correctAnswer": "2024",
+        "enableIf": "{answer6} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer26",
+        "title": "Ve kterém roce jsi přečetla knihu 'Železná vdova (Železná vdova, #1)'?",
+        "choices": [
+          "2023",
+          "2021",
+          "2024",
+          "2020"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer26} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer87",
+        "title": "Kdo napsal knihu knihu 'Neviditelný život Addie LaRue'?",
+        "choices": [
+          "Schwab, Victoria",
+          "Cline, Ernest",
+          "Townsend, Jessica",
+          "Salte, Tereza"
+        ],
+        "correctAnswer": "Schwab, Victoria",
+        "enableIf": "{answer87} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer170",
+        "title": "Ve kterém roce jsi přečetla knihu 'Renegáti (Renegáti, #1)'?",
+        "choices": [
+          "2022",
+          "2024",
+          "2021",
+          "2020"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer170} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer52",
+        "title": "Ve kterém roce jsi přečetla knihu 'Baletky'?",
+        "choices": [
+          "2023",
+          "2021",
+          "2020",
+          "2022"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer52} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer177",
+        "title": "Kdo napsal knihu knihu '4 Starodávné příběhy Čtyřlístku'?",
+        "choices": [
+          "Komrsková, Alžběta",
+          "Moravec, Martin",
+          "Lamková, Hana",
+          "Orwell, George"
+        ],
+        "correctAnswer": "Lamková, Hana",
+        "enableIf": "{answer177} empty"
       }
     ]
   }

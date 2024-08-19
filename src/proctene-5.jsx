@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer40",
-        "title": "Ve kterém roce jsi přečetla knihu 'Smrt přichází na prohlídku (Vraždy v Österlenu, #1)'?",
+        "name": "answer118",
+        "title": "Ve kterém roce jsi přečetla knihu 'Sluha dvou pánů'?",
         "choices": [
-          "2023",
+          "2024",
+          "2021",
           "2020",
-          "2022",
-          "2021"
+          "2023"
         ],
         "correctAnswer": "2023",
-        "enableIf": "{answer40} empty"
+        "enableIf": "{answer118} empty"
       }
     ]
   },
@@ -33,16 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer41",
-        "title": "Kdo napsal knihu knihu 'Smrt přichází na prohlídku (Vraždy v Österlenu, #1)'?",
+        "name": "answer109",
+        "title": "Kdo napsal knihu knihu 'Lev, čarodějnice a skříň (Letopisy Narnie, #2)'?",
         "choices": [
-          "Townsend, Jessica",
+          "Dyk, Viktor",
+          "Lewis, C.S.",
           "Karika, Jozef",
-          "Motte, Anders de la",
-          "Jonasson, Jonas"
+          "Motte, Anders de la"
         ],
-        "correctAnswer": "Motte, Anders de la",
-        "enableIf": "{answer41} empty"
+        "correctAnswer": "Lewis, C.S.",
+        "enableIf": "{answer109} empty"
       }
     ]
   },
@@ -50,16 +50,101 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer42",
-        "title": "Ve kterém roce jsi přečetla knihu 'Pěšky mezi buddhisty a komunisty'?",
+        "name": "answer161",
+        "title": "Kdo napsal knihu knihu 'Kavárna v Kodani (Romantické útěky, #1)'?",
         "choices": [
-          "2024",
+          "Doyle, Arthur Conan",
+          "Paolini, Christopher",
+          "Caplin, Julie",
+          "Karika, Jozef"
+        ],
+        "correctAnswer": "Caplin, Julie",
+        "enableIf": "{answer161} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer35",
+        "title": "Kdo napsal knihu knihu 'Kopírák'?",
+        "choices": [
+          "Meyer, Marissa",
+          "Holland, Sam",
+          "Rožek, Filip",
+          "Martin, George R.R."
+        ],
+        "correctAnswer": "Holland, Sam",
+        "enableIf": "{answer35} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer57",
+        "title": "Kdo napsal knihu knihu 'Maryša'?",
+        "choices": [
+          "Vrchlický, Jaroslav",
+          "Ferrante, Elena",
+          "Schwab, Victoria",
+          "Mrštík, Alois"
+        ],
+        "correctAnswer": "Mrštík, Alois",
+        "enableIf": "{answer57} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer73",
+        "title": "Kdo napsal knihu knihu 'Mráz (Detektiv Martin Servaz, #1)'?",
+        "choices": [
+          "Bílková, Alžběta",
+          "Campbell, Jen",
+          "Fuks, Ladislav",
+          "Minier, Bernard"
+        ],
+        "correctAnswer": "Minier, Bernard",
+        "enableIf": "{answer73} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer175",
+        "title": "Kdo napsal knihu knihu 'Král Lávra'?",
+        "choices": [
+          "Kovář, Karel Kovy",
+          "Borovský, Karel Havlíček",
+          "Lehečková, Hana",
+          "Rina, Lin"
+        ],
+        "correctAnswer": "Borovský, Karel Havlíček",
+        "enableIf": "{answer175} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer126",
+        "title": "Ve kterém roce jsi přečetla knihu 'Pygmalion'?",
+        "choices": [
+          "2023",
+          "2021",
           "2022",
-          "2021",
-          "2023"
+          "2020"
         ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer42} empty"
+        "correctAnswer": "2021",
+        "enableIf": "{answer126} empty"
       }
     ]
   },
@@ -67,118 +152,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer43",
-        "title": "Kdo napsal knihu knihu 'Pěšky mezi buddhisty a komunisty'?",
+        "name": "answer134",
+        "title": "Ve kterém roce jsi přečetla knihu 'Romeo and Juliet'?",
         "choices": [
-          "Michell, Tom",
-          "Yarros, Rebecca",
-          "Zibura, Ladislav",
-          "Komrsková, Alžběta"
-        ],
-        "correctAnswer": "Zibura, Ladislav",
-        "enableIf": "{answer43} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer44",
-        "title": "Ve kterém roce jsi přečetla knihu 'Naslouchač (Naslouchač, #1)'?",
-        "choices": [
-          "2023",
-          "2020",
-          "2021",
-          "2024"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer44} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer45",
-        "title": "Kdo napsal knihu knihu 'Naslouchač (Naslouchač, #1)'?",
-        "choices": [
-          "Gogol, Nikolai",
-          "Stehlíková, Petra",
-          "Martin, George R.R.",
-          "Komrsková, Alžběta"
-        ],
-        "correctAnswer": "Stehlíková, Petra",
-        "enableIf": "{answer45} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer46",
-        "title": "Ve kterém roce jsi přečetla knihu 'Fantastická zvířata: Brumbálova tajemství - úplný scénář'?",
-        "choices": [
-          "2020",
-          "2021",
-          "2024",
-          "2023"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer46} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer47",
-        "title": "Kdo napsal knihu knihu 'Fantastická zvířata: Brumbálova tajemství - úplný scénář'?",
-        "choices": [
-          "Rowling, J.K.",
-          "Green, John",
-          "Zhao, Xiran Jay",
-          "Čechová, Miřenka"
-        ],
-        "correctAnswer": "Rowling, J.K.",
-        "enableIf": "{answer47} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer48",
-        "title": "Ve kterém roce jsi přečetla knihu 'Odbočka v lesích'?",
-        "choices": [
-          "2024",
           "2020",
           "2023",
+          "2021",
+          "2022"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer134} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer98",
+        "title": "Ve kterém roce jsi přečetla knihu 'Svědectví o životě v KLDR'?",
+        "choices": [
+          "2024",
+          "2021",
+          "2020",
           "2022"
         ],
         "correctAnswer": "2022",
-        "enableIf": "{answer48} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer49",
-        "title": "Kdo napsal knihu knihu 'Odbočka v lesích'?",
-        "choices": [
-          "Meixnerová, Karolína Zoe",
-          "Karolová, Kateřina",
-          "Wilde, Oscar",
-          "Dyk, Viktor"
-        ],
-        "correctAnswer": "Karolová, Kateřina",
-        "enableIf": "{answer49} empty"
+        "enableIf": "{answer98} empty"
       }
     ]
   }

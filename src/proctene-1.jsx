@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer0",
-        "title": "Ve kterém roce jsi přečetla knihu 'Národní opruzení'?",
+        "name": "answer121",
+        "title": "Kdo napsal knihu knihu 'Gump - Pes, který naučil lidi žít'?",
         "choices": [
-          "2023",
-          "2020",
-          "2021",
-          "2024"
+          "Rožek, Filip",
+          "Bradbury, Ray",
+          "Scott, Michael",
+          "Mayne, Andrew"
         ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer0} empty"
+        "correctAnswer": "Rožek, Filip",
+        "enableIf": "{answer121} empty"
       }
     ]
   },
@@ -33,16 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer1",
-        "title": "Kdo napsal knihu knihu 'Národní opruzení'?",
+        "name": "answer41",
+        "title": "Kdo napsal knihu knihu 'Smrt přichází na prohlídku (Vraždy v Österlenu, #1)'?",
         "choices": [
-          "Meixnerová, Karolína Zoe",
-          "Dalcher, Christina",
-          "Čechová, Miřenka",
-          "Klevisová, Michaela"
+          "Yarros, Rebecca",
+          "Motte, Anders de la",
+          "Špitálníková, Nina",
+          "Owens, Delia"
         ],
-        "correctAnswer": "Meixnerová, Karolína Zoe",
-        "enableIf": "{answer1} empty"
+        "correctAnswer": "Motte, Anders de la",
+        "enableIf": "{answer41} empty"
       }
     ]
   },
@@ -50,33 +50,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer2",
-        "title": "Ve kterém roce jsi přečetla knihu 'Šikmý kostel 2: románová kronika ztraceného města (léta 1921–1945)'?",
+        "name": "answer112",
+        "title": "Ve kterém roce jsi přečetla knihu 'Pes Baskervilský: Další dobrodružství Sherlocka Holmese'?",
         "choices": [
-          "2020",
-          "2022",
           "2024",
-          "2023"
+          "2023",
+          "2022",
+          "2021"
         ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer2} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer3",
-        "title": "Kdo napsal knihu knihu 'Šikmý kostel 2: románová kronika ztraceného města (léta 1921–1945)'?",
-        "choices": [
-          "Hrabal, Bohumil",
-          "Stehlíková, Petra",
-          "Owens, Delia",
-          "Lednická, Karin"
-        ],
-        "correctAnswer": "Lednická, Karin",
-        "enableIf": "{answer3} empty"
+        "correctAnswer": "2021",
+        "enableIf": "{answer112} empty"
       }
     ]
   },
@@ -87,10 +70,10 @@
         "name": "answer4",
         "title": "Ve kterém roce jsi přečetla knihu 'Čtvrté křídlo (Empyreum, #1)'?",
         "choices": [
-          "2021",
           "2022",
-          "2020",
-          "2024"
+          "2023",
+          "2024",
+          "2020"
         ],
         "correctAnswer": "2024",
         "enableIf": "{answer4} empty"
@@ -101,16 +84,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer5",
-        "title": "Kdo napsal knihu knihu 'Čtvrté křídlo (Empyreum, #1)'?",
+        "name": "answer111",
+        "title": "Kdo napsal knihu knihu 'O myších a lidech'?",
         "choices": [
-          "Green, John",
-          "Owens, Delia",
-          "Yarros, Rebecca",
-          "Frank, Sylvia"
+          "Jonasson, Jonas",
+          "Tolkien, J.R.R.",
+          "Steinbeck, John",
+          "Čapek, Karel"
         ],
-        "correctAnswer": "Yarros, Rebecca",
-        "enableIf": "{answer5} empty"
+        "correctAnswer": "Steinbeck, John",
+        "enableIf": "{answer111} empty"
       }
     ]
   },
@@ -118,16 +101,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer6",
-        "title": "Ve kterém roce jsi přečetla knihu 'Bookshops & Bonedust (Legends & Lattes, #0)'?",
+        "name": "answer198",
+        "title": "Ve kterém roce jsi přečetla knihu 'Vox'?",
         "choices": [
+          "2022",
+          "2023",
+          "2020",
+          "2021"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer198} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer60",
+        "title": "Ve kterém roce jsi přečetla knihu 'Prokletý kraj'?",
+        "choices": [
+          "2022",
           "2024",
           "2021",
-          "2020",
-          "2023"
+          "2020"
         ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer6} empty"
+        "correctAnswer": "2022",
+        "enableIf": "{answer60} empty"
       }
     ]
   },
@@ -135,16 +135,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer7",
-        "title": "Kdo napsal knihu knihu 'Bookshops & Bonedust (Legends & Lattes, #0)'?",
+        "name": "answer187",
+        "title": "Kdo napsal knihu knihu 'iPohádka'?",
         "choices": [
-          "Rowling, J.K.",
-          "Wilde, Oscar",
-          "Campbell, Jen",
-          "Baldree, Travis"
+          "Frank, Sylvia",
+          "Minier, Bernard",
+          "Kovář, Karel Kovy",
+          "Fitzgerald, F. Scott"
         ],
-        "correctAnswer": "Baldree, Travis",
-        "enableIf": "{answer7} empty"
+        "correctAnswer": "Kovář, Karel Kovy",
+        "enableIf": "{answer187} empty"
       }
     ]
   },
@@ -152,16 +152,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer8",
-        "title": "Ve kterém roce jsi přečetla knihu 'Ignis fatuus'?",
+        "name": "answer202",
+        "title": "Ve kterém roce jsi přečetla knihu 'Hamlet'?",
         "choices": [
-          "2020",
-          "2023",
           "2024",
-          "2022"
+          "2022",
+          "2021",
+          "2020"
         ],
-        "correctAnswer": "2024",
-        "enableIf": "{answer8} empty"
+        "correctAnswer": "2020",
+        "enableIf": "{answer202} empty"
       }
     ]
   },
@@ -169,16 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer9",
-        "title": "Kdo napsal knihu knihu 'Ignis fatuus'?",
+        "name": "answer117",
+        "title": "Kdo napsal knihu knihu 'Jak je důležité míti Filipa'?",
         "choices": [
-          "Saint-Exupéry, Antoine de",
-          "Rina, Lin",
-          "Stehlíková, Petra",
-          "Klabouchová, Petra"
+          "Owens, Delia",
+          "Ferrante, Elena",
+          "Wilde, Oscar",
+          "Michell, Tom"
         ],
-        "correctAnswer": "Klabouchová, Petra",
-        "enableIf": "{answer9} empty"
+        "correctAnswer": "Wilde, Oscar",
+        "enableIf": "{answer117} empty"
       }
     ]
   }

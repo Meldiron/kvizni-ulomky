@@ -16,16 +16,118 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer20",
-        "title": "Ve kterém roce jsi přečetla knihu 'Šarlatán'?",
+        "name": "answer32",
+        "title": "Ve kterém roce jsi přečetla knihu 'Ready Player Two (Ready Player One, #2)'?",
+        "choices": [
+          "2023",
+          "2020",
+          "2021",
+          "2024"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer32} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer168",
+        "title": "Ve kterém roce jsi přečetla knihu 'Protivníci (Renegáti, #2)'?",
+        "choices": [
+          "2021",
+          "2022",
+          "2024",
+          "2020"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer168} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer142",
+        "title": "Ve kterém roce jsi přečetla knihu 'R.U.R. By Karel Čapek'?",
+        "choices": [
+          "2022",
+          "2023",
+          "2021",
+          "2020"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer142} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer151",
+        "title": "Kdo napsal knihu knihu 'Dcera ztracených bohů'?",
+        "choices": [
+          "Sapkowski, Andrzej",
+          "Komrsková, Alžběta",
+          "Klabouchová, Petra",
+          "Salte, Tereza"
+        ],
+        "correctAnswer": "Komrsková, Alžběta",
+        "enableIf": "{answer151} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer92",
+        "title": "Ve kterém roce jsi přečetla knihu 'Krysař'?",
+        "choices": [
+          "2022",
+          "2020",
+          "2021",
+          "2024"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer92} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer85",
+        "title": "Kdo napsal knihu knihu 'Hobit'?",
+        "choices": [
+          "Dyk, Viktor",
+          "Rolland, Romain",
+          "Hrabal, Bohumil",
+          "Tolkien, J.R.R."
+        ],
+        "correctAnswer": "Tolkien, J.R.R.",
+        "enableIf": "{answer85} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer108",
+        "title": "Ve kterém roce jsi přečetla knihu 'Lev, čarodějnice a skříň (Letopisy Narnie, #2)'?",
         "choices": [
           "2020",
           "2023",
           "2022",
-          "2024"
+          "2021"
         ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer20} empty"
+        "correctAnswer": "2021",
+        "enableIf": "{answer108} empty"
       }
     ]
   },
@@ -33,152 +135,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer21",
-        "title": "Kdo napsal knihu knihu 'Šarlatán'?",
-        "choices": [
-          "Dalcher, Christina",
-          "Klíma, Josef",
-          "Zibura, Ladislav",
-          "Lednická, Karin"
-        ],
-        "correctAnswer": "Klíma, Josef",
-        "enableIf": "{answer21} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer22",
-        "title": "Ve kterém roce jsi přečetla knihu 'Hory zpívají'?",
-        "choices": [
-          "2023",
-          "2021",
-          "2024",
-          "2020"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer22} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer23",
-        "title": "Kdo napsal knihu knihu 'Hory zpívají'?",
-        "choices": [
-          "Hrabal, Bohumil",
-          "Mayne, Andrew",
-          "Mrštík, Alois",
-          "Nguyễn Phan Quế Mai"
-        ],
-        "correctAnswer": "Nguyễn Phan Quế Mai",
-        "enableIf": "{answer23} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer24",
-        "title": "Ve kterém roce jsi přečetla knihu 'Smrt číhá na jarmarku'?",
-        "choices": [
-          "2023",
-          "2021",
-          "2024",
-          "2020"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer24} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer25",
-        "title": "Kdo napsal knihu knihu 'Smrt číhá na jarmarku'?",
-        "choices": [
-          "Špitálníková, Nina",
-          "Green, John",
-          "Motte, Anders de la",
-          "Frank, Sylvia"
-        ],
-        "correctAnswer": "Motte, Anders de la",
-        "enableIf": "{answer25} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer26",
-        "title": "Ve kterém roce jsi přečetla knihu 'Železná vdova (Železná vdova, #1)'?",
-        "choices": [
-          "2021",
-          "2020",
-          "2024",
-          "2023"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer26} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer27",
-        "title": "Kdo napsal knihu knihu 'Železná vdova (Železná vdova, #1)'?",
-        "choices": [
-          "Zhao, Xiran Jay",
-          "Havel, Václav",
-          "Bradbury, Ray",
-          "Caplin, Julie"
-        ],
-        "correctAnswer": "Zhao, Xiran Jay",
-        "enableIf": "{answer27} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer28",
-        "title": "Ve kterém roce jsi přečetla knihu 'Gala & Dalí: Nerozluční'?",
-        "choices": [
-          "2023",
-          "2024",
-          "2020",
-          "2022"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer28} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer29",
-        "title": "Kdo napsal knihu knihu 'Gala & Dalí: Nerozluční'?",
+        "name": "answer95",
+        "title": "Kdo napsal knihu knihu 'Stoletý stařík, který vylezl z okna a zmizel (Stoletý stařík, #1)'?",
         "choices": [
           "Molière",
-          "Frank, Sylvia",
-          "Sapkowski, Andrzej",
-          "Baldree, Travis"
+          "Jonasson, Jonas",
+          "Čapek, Karel",
+          "Katalpa, Jakuba"
         ],
-        "correctAnswer": "Frank, Sylvia",
-        "enableIf": "{answer29} empty"
+        "correctAnswer": "Jonasson, Jonas",
+        "enableIf": "{answer95} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer184",
+        "title": "Ve kterém roce jsi přečetla knihu 'Meč osudu (Zaklínač, #2)'?",
+        "choices": [
+          "2021",
+          "2022",
+          "2020",
+          "2024"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer184} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer186",
+        "title": "Ve kterém roce jsi přečetla knihu 'iPohádka'?",
+        "choices": [
+          "2023",
+          "2020",
+          "2021",
+          "2022"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer186} empty"
       }
     ]
   }

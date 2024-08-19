@@ -16,16 +16,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer190",
-        "title": "Ve kterém roce jsi přečetla knihu 'Poutník, čarodějnice a červ (Příběhy z Alagaësie #1)'?",
+        "name": "answer81",
+        "title": "Kdo napsal knihu knihu 'Doktor Proktor a velká loupež zlata (Doktor Proktor #4)'?",
+        "choices": [
+          "Mrštík, Alois",
+          "Orwell, George",
+          "Rolland, Romain",
+          "Nesbø, Jo"
+        ],
+        "correctAnswer": "Nesbø, Jo",
+        "enableIf": "{answer81} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer56",
+        "title": "Ve kterém roce jsi přečetla knihu 'Maryša'?",
         "choices": [
           "2022",
           "2024",
           "2023",
-          "2020"
+          "2021"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer190} empty"
+        "correctAnswer": "2022",
+        "enableIf": "{answer56} empty"
       }
     ]
   },
@@ -33,16 +50,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer191",
-        "title": "Kdo napsal knihu knihu 'Poutník, čarodějnice a červ (Příběhy z Alagaësie #1)'?",
+        "name": "answer103",
+        "title": "Kdo napsal knihu knihu 'Kroky vraha'?",
         "choices": [
-          "Shakespeare, William",
-          "Klabouchová, Petra",
+          "Mayne, Andrew",
+          "Klevisová, Michaela",
           "Jirotka, Zdeněk",
-          "Paolini, Christopher"
+          "Kinney, Jeff"
         ],
-        "correctAnswer": "Paolini, Christopher",
-        "enableIf": "{answer191} empty"
+        "correctAnswer": "Klevisová, Michaela",
+        "enableIf": "{answer103} empty"
       }
     ]
   },
@@ -50,33 +67,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer192",
-        "title": "Ve kterém roce jsi přečetla knihu 'The Hunger Games (The Hunger Games, #1)'?",
+        "name": "answer183",
+        "title": "Kdo napsal knihu knihu 'Vražedná pomsta (The Hunger Games, #2)'?",
         "choices": [
-          "2023",
-          "2020",
-          "2021",
-          "2022"
-        ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer192} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer193",
-        "title": "Kdo napsal knihu knihu 'The Hunger Games (The Hunger Games, #1)'?",
-        "choices": [
-          "Němcová, Božena",
-          "Bradbury, Ray",
           "Collins, Suzanne",
-          "Čapek, Karel"
+          "Nesbø, Jo",
+          "Klabouchová, Petra",
+          "Karolová, Kateřina"
         ],
         "correctAnswer": "Collins, Suzanne",
-        "enableIf": "{answer193} empty"
+        "enableIf": "{answer183} empty"
       }
     ]
   },
@@ -84,16 +84,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer194",
-        "title": "Ve kterém roce jsi přečetla knihu 'Střet králů (Píseň ledu a ohně, #2)'?",
+        "name": "answer75",
+        "title": "Kdo napsal knihu knihu 'Poupátka'?",
         "choices": [
-          "2022",
-          "2020",
-          "2024",
-          "2023"
+          "Lehečková, Hana",
+          "Stehlíková, Petra",
+          "Šulc, Jiří",
+          "Collins, Suzanne"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer194} empty"
+        "correctAnswer": "Lehečková, Hana",
+        "enableIf": "{answer75} empty"
       }
     ]
   },
@@ -101,16 +101,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer195",
-        "title": "Kdo napsal knihu knihu 'Střet králů (Píseň ledu a ohně, #2)'?",
+        "name": "answer123",
+        "title": "Kdo napsal knihu knihu 'Vražda v Orient-expresu'?",
         "choices": [
-          "Martin, George R.R.",
-          "Yarros, Rebecca",
-          "Kovář, Karel Kovy",
-          "Maupassant, Guy de"
+          "Čapek, Karel",
+          "Šulc, Jiří",
+          "Christie, Agatha",
+          "Cline, Ernest"
         ],
-        "correctAnswer": "Martin, George R.R.",
-        "enableIf": "{answer195} empty"
+        "correctAnswer": "Christie, Agatha",
+        "enableIf": "{answer123} empty"
       }
     ]
   },
@@ -118,16 +118,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer196",
-        "title": "Ve kterém roce jsi přečetla knihu 'Rytíř Sedmi království'?",
+        "name": "answer173",
+        "title": "Kdo napsal knihu knihu 'The Lying Life of Adults'?",
         "choices": [
-          "2020",
-          "2022",
-          "2021",
-          "2023"
+          "Hrabal, Bohumil",
+          "Salte, Tereza",
+          "Ferrante, Elena",
+          "Vrchlický, Jaroslav"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer196} empty"
+        "correctAnswer": "Ferrante, Elena",
+        "enableIf": "{answer173} empty"
       }
     ]
   },
@@ -135,16 +135,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer197",
-        "title": "Kdo napsal knihu knihu 'Rytíř Sedmi království'?",
+        "name": "answer91",
+        "title": "Kdo napsal knihu knihu 'Noc na Karlštejně'?",
         "choices": [
-          "Baldree, Travis",
-          "Mrštík, Alois",
-          "Schwab, Victoria",
-          "Martin, George R.R."
+          "Rolland, Romain",
+          "Rožek, Filip",
+          "Vrchlický, Jaroslav",
+          "Katalpa, Jakuba"
         ],
-        "correctAnswer": "Martin, George R.R.",
-        "enableIf": "{answer197} empty"
+        "correctAnswer": "Vrchlický, Jaroslav",
+        "enableIf": "{answer91} empty"
       }
     ]
   },
@@ -152,16 +152,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer198",
-        "title": "Ve kterém roce jsi přečetla knihu 'Vox'?",
+        "name": "answer61",
+        "title": "Kdo napsal knihu knihu 'Prokletý kraj'?",
         "choices": [
-          "2023",
-          "2021",
-          "2022",
-          "2020"
+          "Green, John",
+          "Caplin, Julie",
+          "Klevisová, Michaela",
+          "Schwab, Victoria"
         ],
-        "correctAnswer": "2020",
-        "enableIf": "{answer198} empty"
+        "correctAnswer": "Klevisová, Michaela",
+        "enableIf": "{answer61} empty"
       }
     ]
   },
@@ -169,16 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer199",
-        "title": "Kdo napsal knihu knihu 'Vox'?",
+        "name": "answer171",
+        "title": "Kdo napsal knihu knihu 'Renegáti (Renegáti, #1)'?",
         "choices": [
-          "Borovský, Karel Havlíček",
-          "Tung, Debbie",
-          "Havel, Václav",
-          "Dalcher, Christina"
+          "Doyle, Arthur Conan",
+          "Bradbury, Ray",
+          "Meyer, Marissa",
+          "Scott, Michael"
         ],
-        "correctAnswer": "Dalcher, Christina",
-        "enableIf": "{answer199} empty"
+        "correctAnswer": "Meyer, Marissa",
+        "enableIf": "{answer171} empty"
       }
     ]
   }

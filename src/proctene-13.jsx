@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer120",
-        "title": "Ve kterém roce jsi přečetla knihu 'Gump - Pes, který naučil lidi žít'?",
+        "name": "answer167",
+        "title": "Kdo napsal knihu knihu 'Revizor'?",
         "choices": [
-          "2023",
-          "2021",
-          "2022",
-          "2020"
+          "Lehečková, Hana",
+          "Motte, Anders de la",
+          "Gogol, Nikolai",
+          "Cline, Ernest"
         ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer120} empty"
+        "correctAnswer": "Gogol, Nikolai",
+        "enableIf": "{answer167} empty"
       }
     ]
   },
@@ -33,16 +33,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer121",
-        "title": "Kdo napsal knihu knihu 'Gump - Pes, který naučil lidi žít'?",
+        "name": "answer94",
+        "title": "Ve kterém roce jsi přečetla knihu 'Stoletý stařík, který vylezl z okna a zmizel (Stoletý stařík, #1)'?",
         "choices": [
-          "Zhao, Xiran Jay",
-          "Tung, Debbie",
-          "Rožek, Filip",
+          "2021",
+          "2022",
+          "2024",
+          "2020"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer94} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer13",
+        "title": "Kdo napsal knihu knihu 'Legendy & latéčka (Legendy & latéčka, #1)'?",
+        "choices": [
+          "Vrchlický, Jaroslav",
+          "Riordan, Rick",
+          "Baldree, Travis",
           "Rina, Lin"
         ],
-        "correctAnswer": "Rožek, Filip",
-        "enableIf": "{answer121} empty"
+        "correctAnswer": "Baldree, Travis",
+        "enableIf": "{answer13} empty"
       }
     ]
   },
@@ -50,118 +67,84 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer122",
-        "title": "Ve kterém roce jsi přečetla knihu 'Vražda v Orient-expresu'?",
+        "name": "answer67",
+        "title": "Kdo napsal knihu knihu 'Životice: obraz (po)zapomenuté tragédie'?",
         "choices": [
-          "2024",
+          "Shakespeare, William",
+          "Schwab, Victoria",
+          "Lednická, Karin",
+          "Scott, Michael"
+        ],
+        "correctAnswer": "Lednická, Karin",
+        "enableIf": "{answer67} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer89",
+        "title": "Kdo napsal knihu knihu '1984'?",
+        "choices": [
+          "Orwell, George",
+          "Katalpa, Jakuba",
+          "Yarros, Rebecca",
+          "Nguyễn Phan Quế Mai"
+        ],
+        "correctAnswer": "Orwell, George",
+        "enableIf": "{answer89} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer197",
+        "title": "Kdo napsal knihu knihu 'Rytíř Sedmi království'?",
+        "choices": [
+          "Saint-Exupéry, Antoine de",
+          "Frank, Sylvia",
+          "Martin, George R.R.",
+          "Dalcher, Christina"
+        ],
+        "correctAnswer": "Martin, George R.R.",
+        "enableIf": "{answer197} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer139",
+        "title": "Kdo napsal knihu knihu 'Němci'?",
+        "choices": [
+          "Katalpa, Jakuba",
+          "Lewis, C.S.",
+          "Saint-Exupéry, Antoine de",
+          "Dalcher, Christina"
+        ],
+        "correctAnswer": "Katalpa, Jakuba",
+        "enableIf": "{answer139} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer106",
+        "title": "Ve kterém roce jsi přečetla knihu 'Kroniky prachu (Kroniky prachu, #1)'?",
+        "choices": [
           "2022",
-          "2023",
-          "2020"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer122} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer123",
-        "title": "Kdo napsal knihu knihu 'Vražda v Orient-expresu'?",
-        "choices": [
-          "Campbell, Jen",
-          "Caplin, Julie",
-          "Townsend, Jessica",
-          "Christie, Agatha"
-        ],
-        "correctAnswer": "Christie, Agatha",
-        "enableIf": "{answer123} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer124",
-        "title": "Ve kterém roce jsi přečetla knihu 'Petr a Lucie'?",
-        "choices": [
           "2024",
-          "2023",
-          "2021",
-          "2022"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer124} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer125",
-        "title": "Kdo napsal knihu knihu 'Petr a Lucie'?",
-        "choices": [
-          "Gogol, Nikolai",
-          "Dalcher, Christina",
-          "Lehečková, Hana",
-          "Rolland, Romain"
-        ],
-        "correctAnswer": "Rolland, Romain",
-        "enableIf": "{answer125} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer126",
-        "title": "Ve kterém roce jsi přečetla knihu 'Pygmalion'?",
-        "choices": [
-          "2022",
-          "2023",
-          "2021",
-          "2020"
+          "2020",
+          "2021"
         ],
         "correctAnswer": "2021",
-        "enableIf": "{answer126} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer127",
-        "title": "Kdo napsal knihu knihu 'Pygmalion'?",
-        "choices": [
-          "Shaw, George Bernard",
-          "Dyk, Viktor",
-          "Shakespeare, William",
-          "Prince Harry"
-        ],
-        "correctAnswer": "Shaw, George Bernard",
-        "enableIf": "{answer127} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer128",
-        "title": "Ve kterém roce jsi přečetla knihu 'Krev elfů (Zaklínač, #3)'?",
-        "choices": [
-          "2020",
-          "2021",
-          "2023",
-          "2022"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer128} empty"
+        "enableIf": "{answer106} empty"
       }
     ]
   },
@@ -172,13 +155,30 @@
         "name": "answer129",
         "title": "Kdo napsal knihu knihu 'Krev elfů (Zaklínač, #3)'?",
         "choices": [
-          "Rolland, Romain",
-          "Sapkowski, Andrzej",
-          "Strnadová, Anna",
-          "Orwell, George"
+          "Hrabal, Bohumil",
+          "Michell, Tom",
+          "Lewis, C.S.",
+          "Sapkowski, Andrzej"
         ],
         "correctAnswer": "Sapkowski, Andrzej",
         "enableIf": "{answer129} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer138",
+        "title": "Ve kterém roce jsi přečetla knihu 'Němci'?",
+        "choices": [
+          "2023",
+          "2022",
+          "2020",
+          "2021"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer138} empty"
       }
     ]
   }

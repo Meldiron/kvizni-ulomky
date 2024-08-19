@@ -16,16 +16,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer30",
-        "title": "Ve kterém roce jsi přečetla knihu 'Josef Mareš: Moje případy z 1. oddělení'?",
+        "name": "answer131",
+        "title": "Kdo napsal knihu knihu 'Malý princ'?",
+        "choices": [
+          "Bradbury, Ray",
+          "Molière",
+          "Meyer, Marissa",
+          "Saint-Exupéry, Antoine de"
+        ],
+        "correctAnswer": "Saint-Exupéry, Antoine de",
+        "enableIf": "{answer131} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer46",
+        "title": "Ve kterém roce jsi přečetla knihu 'Fantastická zvířata: Brumbálova tajemství - úplný scénář'?",
         "choices": [
           "2024",
+          "2020",
           "2023",
-          "2021",
           "2022"
         ],
         "correctAnswer": "2023",
-        "enableIf": "{answer30} empty"
+        "enableIf": "{answer46} empty"
       }
     ]
   },
@@ -33,16 +50,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer31",
-        "title": "Kdo napsal knihu knihu 'Josef Mareš: Moje případy z 1. oddělení'?",
+        "name": "answer149",
+        "title": "Kdo napsal knihu knihu 'Kulička'?",
         "choices": [
-          "Frank, Sylvia",
-          "Ferrante, Elena",
-          "Moravec, Martin",
-          "Meyer, Marissa"
+          "Mrštík, Alois",
+          "Riordan, Rick",
+          "Maupassant, Guy de",
+          "Townsend, Jessica"
         ],
-        "correctAnswer": "Moravec, Martin",
-        "enableIf": "{answer31} empty"
+        "correctAnswer": "Maupassant, Guy de",
+        "enableIf": "{answer149} empty"
       }
     ]
   },
@@ -50,16 +67,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer32",
-        "title": "Ve kterém roce jsi přečetla knihu 'Ready Player Two (Ready Player One, #2)'?",
+        "name": "answer181",
+        "title": "Kdo napsal knihu knihu 'Divné hlášky z knihkupectví'?",
+        "choices": [
+          "Riordan, Rick",
+          "Němcová, Božena",
+          "Campbell, Jen",
+          "Klíma, Josef"
+        ],
+        "correctAnswer": "Campbell, Jen",
+        "enableIf": "{answer181} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer107",
+        "title": "Kdo napsal knihu knihu 'Kroniky prachu (Kroniky prachu, #1)'?",
+        "choices": [
+          "Lednická, Karin",
+          "Rina, Lin",
+          "Salte, Tereza",
+          "Fuks, Ladislav"
+        ],
+        "correctAnswer": "Rina, Lin",
+        "enableIf": "{answer107} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer54",
+        "title": "Ve kterém roce jsi přečetla knihu 'Spalovač mrtvol'?",
         "choices": [
           "2020",
           "2023",
-          "2021",
-          "2024"
+          "2024",
+          "2022"
         ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer32} empty"
+        "correctAnswer": "2022",
+        "enableIf": "{answer54} empty"
       }
     ]
   },
@@ -67,16 +118,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer33",
-        "title": "Kdo napsal knihu knihu 'Ready Player Two (Ready Player One, #2)'?",
+        "name": "answer163",
+        "title": "Kdo napsal knihu knihu 'Supernova (Renegades, #3)'?",
         "choices": [
-          "Vrchlický, Jaroslav",
-          "Podolová, Petra",
-          "Cline, Ernest",
+          "Meyer, Marissa",
+          "Meixnerová, Karolína Zoe",
+          "Salte, Tereza",
+          "Minier, Bernard"
+        ],
+        "correctAnswer": "Meyer, Marissa",
+        "enableIf": "{answer163} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer50",
+        "title": "Ve kterém roce jsi přečetla knihu 'Ostře sledované vlaky'?",
+        "choices": [
+          "2021",
+          "2023",
+          "2022",
+          "2024"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer50} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer83",
+        "title": "Kdo napsal knihu knihu 'Zlodějka příběhů'?",
+        "choices": [
+          "Tolkien, J.R.R.",
+          "Paolini, Christopher",
+          "Fitzgerald, F. Scott",
           "Klevisová, Michaela"
         ],
-        "correctAnswer": "Cline, Ernest",
-        "enableIf": "{answer33} empty"
+        "correctAnswer": "Klevisová, Michaela",
+        "enableIf": "{answer83} empty"
       }
     ]
   },
@@ -84,101 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer34",
-        "title": "Ve kterém roce jsi přečetla knihu 'Kopírák'?",
+        "name": "answer203",
+        "title": "Kdo napsal knihu knihu 'Hamlet'?",
         "choices": [
-          "2023",
-          "2021",
-          "2022",
-          "2020"
+          "Shakespeare, William",
+          "Green, John",
+          "Čechová, Miřenka",
+          "Klabouchová, Petra"
         ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer34} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer35",
-        "title": "Kdo napsal knihu knihu 'Kopírák'?",
-        "choices": [
-          "Holland, Sam",
-          "Lewis, C.S.",
-          "Riordan, Rick",
-          "Baldree, Travis"
-        ],
-        "correctAnswer": "Holland, Sam",
-        "enableIf": "{answer35} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer36",
-        "title": "Ve kterém roce jsi přečetla knihu 'Šlehačková oblaka'?",
-        "choices": [
-          "2021",
-          "2020",
-          "2023",
-          "2024"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer36} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer37",
-        "title": "Kdo napsal knihu knihu 'Šlehačková oblaka'?",
-        "choices": [
-          "Salte, Tereza",
-          "Rožek, Filip",
-          "Kovář, Karel Kovy",
-          "Bradbury, Ray"
-        ],
-        "correctAnswer": "Salte, Tereza",
-        "enableIf": "{answer37} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer38",
-        "title": "Ve kterém roce jsi přečetla knihu 'Nikdyuš. Zkoušky, jež podstoupila Morrigan Crowová (Nikdyuš #1)'?",
-        "choices": [
-          "2024",
-          "2022",
-          "2021",
-          "2023"
-        ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer38} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer39",
-        "title": "Kdo napsal knihu knihu 'Nikdyuš. Zkoušky, jež podstoupila Morrigan Crowová (Nikdyuš #1)'?",
-        "choices": [
-          "Townsend, Jessica",
-          "Campbell, Jen",
-          "Kinney, Jeff",
-          "Moravec, Martin"
-        ],
-        "correctAnswer": "Townsend, Jessica",
-        "enableIf": "{answer39} empty"
+        "correctAnswer": "Shakespeare, William",
+        "enableIf": "{answer203} empty"
       }
     ]
   }

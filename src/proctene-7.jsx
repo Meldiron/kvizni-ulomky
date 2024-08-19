@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer60",
-        "title": "Ve kterém roce jsi přečetla knihu 'Prokletý kraj'?",
+        "name": "answer127",
+        "title": "Kdo napsal knihu knihu 'Pygmalion'?",
         "choices": [
-          "2023",
-          "2022",
-          "2020",
-          "2024"
+          "Christie, Agatha",
+          "Maupassant, Guy de",
+          "Molière",
+          "Shaw, George Bernard"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer60} empty"
+        "correctAnswer": "Shaw, George Bernard",
+        "enableIf": "{answer127} empty"
       }
     ]
   },
@@ -33,33 +33,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer61",
-        "title": "Kdo napsal knihu knihu 'Prokletý kraj'?",
-        "choices": [
-          "Klevisová, Michaela",
-          "Němcová, Božena",
-          "Kovář, Karel Kovy",
-          "Moravec, Martin"
-        ],
-        "correctAnswer": "Klevisová, Michaela",
-        "enableIf": "{answer61} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer62",
-        "title": "Ve kterém roce jsi přečetla knihu 'Saturnin'?",
+        "name": "answer2",
+        "title": "Ve kterém roce jsi přečetla knihu 'Šikmý kostel 2: románová kronika ztraceného města (léta 1921–1945)'?",
         "choices": [
           "2021",
           "2024",
+          "2022",
+          "2023"
+        ],
+        "correctAnswer": "2024",
+        "enableIf": "{answer2} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer90",
+        "title": "Ve kterém roce jsi přečetla knihu 'Noc na Karlštejně'?",
+        "choices": [
+          "2020",
           "2023",
+          "2021",
           "2022"
         ],
         "correctAnswer": "2022",
-        "enableIf": "{answer62} empty"
+        "enableIf": "{answer90} empty"
       }
     ]
   },
@@ -67,16 +67,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer63",
-        "title": "Kdo napsal knihu knihu 'Saturnin'?",
+        "name": "answer135",
+        "title": "Kdo napsal knihu knihu 'Romeo and Juliet'?",
         "choices": [
-          "Jirotka, Zdeněk",
-          "Klíma, Josef",
-          "Prince Harry",
-          "Nesbø, Jo"
+          "Rolland, Romain",
+          "Fuks, Ladislav",
+          "Nesbø, Jo",
+          "Shakespeare, William"
         ],
-        "correctAnswer": "Jirotka, Zdeněk",
-        "enableIf": "{answer63} empty"
+        "correctAnswer": "Shakespeare, William",
+        "enableIf": "{answer135} empty"
       }
     ]
   },
@@ -84,16 +84,84 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer64",
-        "title": "Ve kterém roce jsi přečetla knihu '451 stupňů Fahrenheita'?",
+        "name": "answer159",
+        "title": "Kdo napsal knihu knihu 'Deník malého poseroutky: Zápisky Grega Heffleyho (Deník malého poseroutky, #1)'?",
         "choices": [
-          "2022",
-          "2021",
+          "Špitálníková, Nina",
+          "Meyer, Marissa",
+          "Kinney, Jeff",
+          "Martin, George R.R."
+        ],
+        "correctAnswer": "Kinney, Jeff",
+        "enableIf": "{answer159} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer5",
+        "title": "Kdo napsal knihu knihu 'Čtvrté křídlo (Empyreum, #1)'?",
+        "choices": [
+          "Schwab, Victoria",
+          "Yarros, Rebecca",
+          "Mrštík, Alois",
+          "Stehlíková, Petra"
+        ],
+        "correctAnswer": "Yarros, Rebecca",
+        "enableIf": "{answer5} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer9",
+        "title": "Kdo napsal knihu knihu 'Ignis fatuus'?",
+        "choices": [
+          "Podolová, Petra",
+          "Dyk, Viktor",
+          "Klabouchová, Petra",
+          "Čechová, Miřenka"
+        ],
+        "correctAnswer": "Klabouchová, Petra",
+        "enableIf": "{answer9} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer55",
+        "title": "Kdo napsal knihu knihu 'Spalovač mrtvol'?",
+        "choices": [
+          "Campbell, Jen",
+          "Salte, Tereza",
+          "Fuks, Ladislav",
+          "Owens, Delia"
+        ],
+        "correctAnswer": "Fuks, Ladislav",
+        "enableIf": "{answer55} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer58",
+        "title": "Ve kterém roce jsi přečetla knihu 'Odcházení'?",
+        "choices": [
           "2020",
+          "2021",
+          "2022",
           "2023"
         ],
         "correctAnswer": "2022",
-        "enableIf": "{answer64} empty"
+        "enableIf": "{answer58} empty"
       }
     ]
   },
@@ -101,84 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer65",
-        "title": "Kdo napsal knihu knihu '451 stupňů Fahrenheita'?",
+        "name": "answer145",
+        "title": "Kdo napsal knihu knihu 'Listopád'?",
         "choices": [
-          "Jirotka, Zdeněk",
-          "Lewis, C.S.",
-          "Bradbury, Ray",
+          "Borovský, Karel Havlíček",
+          "Green, John",
+          "Mornštajnová, Alena",
           "Pavel, Ota"
         ],
-        "correctAnswer": "Bradbury, Ray",
-        "enableIf": "{answer65} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer66",
-        "title": "Ve kterém roce jsi přečetla knihu 'Životice: obraz (po)zapomenuté tragédie'?",
-        "choices": [
-          "2023",
-          "2022",
-          "2024",
-          "2021"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer66} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer67",
-        "title": "Kdo napsal knihu knihu 'Životice: obraz (po)zapomenuté tragédie'?",
-        "choices": [
-          "Salte, Tereza",
-          "Lednická, Karin",
-          "Motte, Anders de la",
-          "Mrštík, Alois"
-        ],
-        "correctAnswer": "Lednická, Karin",
-        "enableIf": "{answer67} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer68",
-        "title": "Ve kterém roce jsi přečetla knihu 'Divá Bára'?",
-        "choices": [
-          "2021",
-          "2020",
-          "2023",
-          "2022"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer68} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer69",
-        "title": "Kdo napsal knihu knihu 'Divá Bára'?",
-        "choices": [
-          "Saint-Exupéry, Antoine de",
-          "Němcová, Božena",
-          "Karolová, Kateřina",
-          "Martin, George R.R."
-        ],
-        "correctAnswer": "Němcová, Božena",
-        "enableIf": "{answer69} empty"
+        "correctAnswer": "Mornštajnová, Alena",
+        "enableIf": "{answer145} empty"
       }
     ]
   }

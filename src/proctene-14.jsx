@@ -16,84 +16,101 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer130",
-        "title": "Ve kterém roce jsi přečetla knihu 'Malý princ'?",
-        "choices": [
-          "2020",
-          "2021",
-          "2024",
-          "2023"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer130} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer131",
-        "title": "Kdo napsal knihu knihu 'Malý princ'?",
-        "choices": [
-          "Saint-Exupéry, Antoine de",
-          "Fitzgerald, F. Scott",
-          "Christie, Agatha",
-          "Mornštajnová, Alena"
-        ],
-        "correctAnswer": "Saint-Exupéry, Antoine de",
-        "enableIf": "{answer131} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer132",
-        "title": "Ve kterém roce jsi přečetla knihu 'Příliš mnoho Kateřin'?",
-        "choices": [
-          "2024",
-          "2021",
-          "2022",
-          "2020"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer132} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer133",
-        "title": "Kdo napsal knihu knihu 'Příliš mnoho Kateřin'?",
-        "choices": [
-          "Nguyễn Phan Quế Mai",
-          "Bílková, Alžběta",
-          "Green, John",
-          "Wilde, Oscar"
-        ],
-        "correctAnswer": "Green, John",
-        "enableIf": "{answer133} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer134",
-        "title": "Ve kterém roce jsi přečetla knihu 'Romeo and Juliet'?",
+        "name": "answer178",
+        "title": "Ve kterém roce jsi přečetla knihu 'Síla vzdoru (The Hunger Games, #3)'?",
         "choices": [
           "2023",
           "2020",
+          "2024",
+          "2021"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer178} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer172",
+        "title": "Ve kterém roce jsi přečetla knihu 'The Lying Life of Adults'?",
+        "choices": [
           "2022",
+          "2021",
+          "2020",
+          "2023"
+        ],
+        "correctAnswer": "2020",
+        "enableIf": "{answer172} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer158",
+        "title": "Ve kterém roce jsi přečetla knihu 'Deník malého poseroutky: Zápisky Grega Heffleyho (Deník malého poseroutky, #1)'?",
+        "choices": [
+          "2024",
+          "2021",
+          "2023",
+          "2022"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer158} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer59",
+        "title": "Kdo napsal knihu knihu 'Odcházení'?",
+        "choices": [
+          "Holland, Sam",
+          "Havel, Václav",
+          "Němcová, Božena",
+          "Bradbury, Ray"
+        ],
+        "correctAnswer": "Havel, Václav",
+        "enableIf": "{answer59} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer10",
+        "title": "Ve kterém roce jsi přečetla knihu 'Už nikdy pěšky po Arménii a Gruzii'?",
+        "choices": [
+          "2023",
+          "2024",
+          "2021",
+          "2022"
+        ],
+        "correctAnswer": "2024",
+        "enableIf": "{answer10} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer114",
+        "title": "Ve kterém roce jsi přečetla knihu 'Kosti Mraza'?",
+        "choices": [
+          "2022",
+          "2024",
+          "2023",
           "2021"
         ],
         "correctAnswer": "2021",
-        "enableIf": "{answer134} empty"
+        "enableIf": "{answer114} empty"
       }
     ]
   },
@@ -101,33 +118,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer135",
-        "title": "Kdo napsal knihu knihu 'Romeo and Juliet'?",
+        "name": "answer66",
+        "title": "Ve kterém roce jsi přečetla knihu 'Životice: obraz (po)zapomenuté tragédie'?",
         "choices": [
-          "Christie, Agatha",
-          "Zibura, Ladislav",
-          "Shakespeare, William",
-          "Goldoni, Carlo"
-        ],
-        "correctAnswer": "Shakespeare, William",
-        "enableIf": "{answer135} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer136",
-        "title": "Ve kterém roce jsi přečetla knihu 'Bouře mečů (Píseň ledu a ohně, #3)'?",
-        "choices": [
-          "2022",
-          "2023",
           "2021",
+          "2022",
+          "2024",
           "2020"
         ],
-        "correctAnswer": "2023",
-        "enableIf": "{answer136} empty"
+        "correctAnswer": "2022",
+        "enableIf": "{answer66} empty"
       }
     ]
   },
@@ -135,16 +135,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer137",
-        "title": "Kdo napsal knihu knihu 'Bouře mečů (Píseň ledu a ohně, #3)'?",
+        "name": "answer169",
+        "title": "Kdo napsal knihu knihu 'Protivníci (Renegáti, #2)'?",
         "choices": [
-          "Meyer, Marissa",
-          "Martin, George R.R.",
-          "Borovský, Karel Havlíček",
-          "Rožek, Filip"
+          "Mrštík, Alois",
+          "Riordan, Rick",
+          "Meixnerová, Karolína Zoe",
+          "Meyer, Marissa"
         ],
-        "correctAnswer": "Martin, George R.R.",
-        "enableIf": "{answer137} empty"
+        "correctAnswer": "Meyer, Marissa",
+        "enableIf": "{answer169} empty"
       }
     ]
   },
@@ -152,16 +152,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer138",
-        "title": "Ve kterém roce jsi přečetla knihu 'Němci'?",
+        "name": "answer16",
+        "title": "Ve kterém roce jsi přečetla knihu 'Spare'?",
         "choices": [
-          "2020",
           "2021",
           "2024",
+          "2022",
           "2023"
         ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer138} empty"
+        "correctAnswer": "2024",
+        "enableIf": "{answer16} empty"
       }
     ]
   },
@@ -169,16 +169,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer139",
-        "title": "Kdo napsal knihu knihu 'Němci'?",
+        "name": "answer146",
+        "title": "Ve kterém roce jsi přečetla knihu 'Tma'?",
         "choices": [
-          "Katalpa, Jakuba",
-          "Paolini, Christopher",
-          "Dyk, Viktor",
-          "Martin, George R.R."
+          "2024",
+          "2021",
+          "2023",
+          "2020"
         ],
-        "correctAnswer": "Katalpa, Jakuba",
-        "enableIf": "{answer139} empty"
+        "correctAnswer": "2021",
+        "enableIf": "{answer146} empty"
       }
     ]
   }

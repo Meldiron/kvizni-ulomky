@@ -16,50 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer140",
-        "title": "Ve kterém roce jsi přečetla knihu 'Utajené Orákulum (Apollónův pád, #1)'?",
+        "name": "answer130",
+        "title": "Ve kterém roce jsi přečetla knihu 'Malý princ'?",
         "choices": [
-          "2021",
-          "2020",
           "2024",
-          "2023"
-        ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer140} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer141",
-        "title": "Kdo napsal knihu knihu 'Utajené Orákulum (Apollónův pád, #1)'?",
-        "choices": [
-          "Owens, Delia",
-          "Riordan, Rick",
-          "Martin, George R.R.",
-          "Zhao, Xiran Jay"
-        ],
-        "correctAnswer": "Riordan, Rick",
-        "enableIf": "{answer141} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer142",
-        "title": "Ve kterém roce jsi přečetla knihu 'R.U.R. By Karel Čapek'?",
-        "choices": [
-          "2021",
           "2023",
-          "2022",
+          "2021",
           "2020"
         ],
         "correctAnswer": "2021",
-        "enableIf": "{answer142} empty"
+        "enableIf": "{answer130} empty"
       }
     ]
   },
@@ -67,16 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer143",
-        "title": "Kdo napsal knihu knihu 'R.U.R. By Karel Čapek'?",
+        "name": "answer165",
+        "title": "Kdo napsal knihu knihu 'Futurum'?",
         "choices": [
-          "Paolini, Christopher",
-          "Čapek, Karel",
-          "Nguyễn Phan Quế Mai",
-          "Lamková, Hana"
+          "Motte, Anders de la",
+          "Klabouchová, Petra",
+          "Mornštajnová, Alena",
+          "Podolová, Petra"
         ],
-        "correctAnswer": "Čapek, Karel",
-        "enableIf": "{answer143} empty"
+        "correctAnswer": "Podolová, Petra",
+        "enableIf": "{answer165} empty"
       }
     ]
   },
@@ -84,16 +50,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer144",
-        "title": "Ve kterém roce jsi přečetla knihu 'Listopád'?",
+        "name": "answer153",
+        "title": "Kdo napsal knihu knihu 'Velký Gatsby'?",
         "choices": [
+          "Wilde, Oscar",
+          "Salte, Tereza",
+          "Fitzgerald, F. Scott",
+          "Nesbø, Jo"
+        ],
+        "correctAnswer": "Fitzgerald, F. Scott",
+        "enableIf": "{answer153} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer63",
+        "title": "Kdo napsal knihu knihu 'Saturnin'?",
+        "choices": [
+          "Kinney, Jeff",
+          "Havel, Václav",
+          "Jirotka, Zdeněk",
+          "Baldree, Travis"
+        ],
+        "correctAnswer": "Jirotka, Zdeněk",
+        "enableIf": "{answer63} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer120",
+        "title": "Ve kterém roce jsi přečetla knihu 'Gump - Pes, který naučil lidi žít'?",
+        "choices": [
+          "2020",
           "2023",
-          "2022",
           "2024",
           "2021"
         ],
         "correctAnswer": "2021",
-        "enableIf": "{answer144} empty"
+        "enableIf": "{answer120} empty"
       }
     ]
   },
@@ -101,33 +101,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer145",
-        "title": "Kdo napsal knihu knihu 'Listopád'?",
-        "choices": [
-          "Karolová, Kateřina",
-          "Čechová, Miřenka",
-          "Salte, Tereza",
-          "Mornštajnová, Alena"
-        ],
-        "correctAnswer": "Mornštajnová, Alena",
-        "enableIf": "{answer145} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer146",
-        "title": "Ve kterém roce jsi přečetla knihu 'Tma'?",
+        "name": "answer152",
+        "title": "Ve kterém roce jsi přečetla knihu 'Velký Gatsby'?",
         "choices": [
           "2024",
-          "2023",
-          "2021",
-          "2022"
+          "2020",
+          "2022",
+          "2021"
         ],
         "correctAnswer": "2021",
-        "enableIf": "{answer146} empty"
+        "enableIf": "{answer152} empty"
       }
     ]
   },
@@ -135,33 +118,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer147",
-        "title": "Kdo napsal knihu knihu 'Tma'?",
+        "name": "answer68",
+        "title": "Ve kterém roce jsi přečetla knihu 'Divá Bára'?",
         "choices": [
-          "Nesbø, Jo",
-          "Karika, Jozef",
-          "Sapkowski, Andrzej",
-          "Riordan, Rick"
-        ],
-        "correctAnswer": "Karika, Jozef",
-        "enableIf": "{answer147} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer148",
-        "title": "Ve kterém roce jsi přečetla knihu 'Kulička'?",
-        "choices": [
+          "2023",
           "2022",
+          "2021",
+          "2024"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer68} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer70",
+        "title": "Ve kterém roce jsi přečetla knihu 'Co mě naučil tučňák'?",
+        "choices": [
           "2024",
           "2021",
+          "2022",
           "2023"
         ],
-        "correctAnswer": "2021",
-        "enableIf": "{answer148} empty"
+        "correctAnswer": "2022",
+        "enableIf": "{answer70} empty"
       }
     ]
   },
@@ -169,16 +152,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer149",
-        "title": "Kdo napsal knihu knihu 'Kulička'?",
+        "name": "answer196",
+        "title": "Ve kterém roce jsi přečetla knihu 'Rytíř Sedmi království'?",
         "choices": [
-          "Maupassant, Guy de",
-          "Holland, Sam",
-          "Shakespeare, William",
-          "Borovský, Karel Havlíček"
+          "2024",
+          "2022",
+          "2023",
+          "2020"
         ],
-        "correctAnswer": "Maupassant, Guy de",
-        "enableIf": "{answer149} empty"
+        "correctAnswer": "2020",
+        "enableIf": "{answer196} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer115",
+        "title": "Kdo napsal knihu knihu 'Kosti Mraza'?",
+        "choices": [
+          "Rožek, Filip",
+          "Karolová, Kateřina",
+          "Maupassant, Guy de",
+          "Bílková, Alžběta"
+        ],
+        "correctAnswer": "Bílková, Alžběta",
+        "enableIf": "{answer115} empty"
       }
     ]
   }

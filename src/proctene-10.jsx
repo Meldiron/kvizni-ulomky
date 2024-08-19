@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer90",
-        "title": "Ve kterém roce jsi přečetla knihu 'Noc na Karlštejně'?",
+        "name": "answer33",
+        "title": "Kdo napsal knihu knihu 'Ready Player Two (Ready Player One, #2)'?",
         "choices": [
-          "2022",
-          "2021",
-          "2020",
-          "2023"
+          "Tung, Debbie",
+          "Wilde, Oscar",
+          "Špitálníková, Nina",
+          "Cline, Ernest"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer90} empty"
+        "correctAnswer": "Cline, Ernest",
+        "enableIf": "{answer33} empty"
       }
     ]
   },
@@ -33,16 +33,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer91",
-        "title": "Kdo napsal knihu knihu 'Noc na Karlštejně'?",
+        "name": "answer24",
+        "title": "Ve kterém roce jsi přečetla knihu 'Smrt číhá na jarmarku'?",
         "choices": [
-          "Vrchlický, Jaroslav",
-          "Stehlíková, Petra",
-          "Podolová, Petra",
+          "2024",
+          "2020",
+          "2023",
+          "2021"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer24} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer199",
+        "title": "Kdo napsal knihu knihu 'Vox'?",
+        "choices": [
+          "Dalcher, Christina",
+          "Schwab, Victoria",
+          "Ferrante, Elena",
           "Prince Harry"
         ],
-        "correctAnswer": "Vrchlický, Jaroslav",
-        "enableIf": "{answer91} empty"
+        "correctAnswer": "Dalcher, Christina",
+        "enableIf": "{answer199} empty"
       }
     ]
   },
@@ -50,118 +67,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer92",
-        "title": "Ve kterém roce jsi přečetla knihu 'Krysař'?",
+        "name": "answer3",
+        "title": "Kdo napsal knihu knihu 'Šikmý kostel 2: románová kronika ztraceného města (léta 1921–1945)'?",
         "choices": [
-          "2023",
-          "2022",
-          "2020",
-          "2021"
+          "Lewis, C.S.",
+          "Lednická, Karin",
+          "Paolini, Christopher",
+          "Frank, Sylvia"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer92} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer93",
-        "title": "Kdo napsal knihu knihu 'Krysař'?",
-        "choices": [
-          "Tung, Debbie",
-          "Schwab, Victoria",
-          "Dyk, Viktor",
-          "Cline, Ernest"
-        ],
-        "correctAnswer": "Dyk, Viktor",
-        "enableIf": "{answer93} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer94",
-        "title": "Ve kterém roce jsi přečetla knihu 'Stoletý stařík, který vylezl z okna a zmizel (Stoletý stařík, #1)'?",
-        "choices": [
-          "2020",
-          "2023",
-          "2022",
-          "2021"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer94} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer95",
-        "title": "Kdo napsal knihu knihu 'Stoletý stařík, který vylezl z okna a zmizel (Stoletý stařík, #1)'?",
-        "choices": [
-          "Tung, Debbie",
-          "Jonasson, Jonas",
-          "Salte, Tereza",
-          "Martin, George R.R."
-        ],
-        "correctAnswer": "Jonasson, Jonas",
-        "enableIf": "{answer95} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer96",
-        "title": "Ve kterém roce jsi přečetla knihu 'Alchymista (Tajemství nesmrtelného Nicholase Flamela, #1)'?",
-        "choices": [
-          "2024",
-          "2021",
-          "2020",
-          "2022"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer96} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer97",
-        "title": "Kdo napsal knihu knihu 'Alchymista (Tajemství nesmrtelného Nicholase Flamela, #1)'?",
-        "choices": [
-          "Scott, Michael",
-          "Rolland, Romain",
-          "Fuks, Ladislav",
-          "Cline, Ernest"
-        ],
-        "correctAnswer": "Scott, Michael",
-        "enableIf": "{answer97} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer98",
-        "title": "Ve kterém roce jsi přečetla knihu 'Svědectví o životě v KLDR'?",
-        "choices": [
-          "2024",
-          "2021",
-          "2020",
-          "2022"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer98} empty"
+        "correctAnswer": "Lednická, Karin",
+        "enableIf": "{answer3} empty"
       }
     ]
   },
@@ -172,13 +87,98 @@
         "name": "answer99",
         "title": "Kdo napsal knihu knihu 'Svědectví o životě v KLDR'?",
         "choices": [
-          "Strnadová, Anna",
+          "Špitálníková, Nina",
+          "Martin, George R.R.",
           "Stehlíková, Petra",
-          "Moravec, Martin",
-          "Špitálníková, Nina"
+          "Rina, Lin"
         ],
         "correctAnswer": "Špitálníková, Nina",
         "enableIf": "{answer99} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer64",
+        "title": "Ve kterém roce jsi přečetla knihu '451 stupňů Fahrenheita'?",
+        "choices": [
+          "2023",
+          "2020",
+          "2022",
+          "2024"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer64} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer179",
+        "title": "Kdo napsal knihu knihu 'Síla vzdoru (The Hunger Games, #3)'?",
+        "choices": [
+          "Meixnerová, Karolína Zoe",
+          "Christie, Agatha",
+          "Collins, Suzanne",
+          "Martin, George R.R."
+        ],
+        "correctAnswer": "Collins, Suzanne",
+        "enableIf": "{answer179} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer141",
+        "title": "Kdo napsal knihu knihu 'Utajené Orákulum (Apollónův pád, #1)'?",
+        "choices": [
+          "Katalpa, Jakuba",
+          "Klabouchová, Petra",
+          "Schwab, Victoria",
+          "Riordan, Rick"
+        ],
+        "correctAnswer": "Riordan, Rick",
+        "enableIf": "{answer141} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer154",
+        "title": "Ve kterém roce jsi přečetla knihu 'Ze života knihomolky'?",
+        "choices": [
+          "2022",
+          "2020",
+          "2021",
+          "2023"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer154} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer11",
+        "title": "Kdo napsal knihu knihu 'Už nikdy pěšky po Arménii a Gruzii'?",
+        "choices": [
+          "Salte, Tereza",
+          "Komrsková, Alžběta",
+          "Zibura, Ladislav",
+          "Jonasson, Jonas"
+        ],
+        "correctAnswer": "Zibura, Ladislav",
+        "enableIf": "{answer11} empty"
       }
     ]
   }

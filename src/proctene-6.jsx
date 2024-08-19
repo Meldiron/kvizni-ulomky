@@ -16,16 +16,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer50",
-        "title": "Ve kterém roce jsi přečetla knihu 'Ostře sledované vlaky'?",
+        "name": "answer62",
+        "title": "Ve kterém roce jsi přečetla knihu 'Saturnin'?",
         "choices": [
-          "2021",
-          "2024",
           "2022",
+          "2024",
+          "2021",
           "2023"
         ],
         "correctAnswer": "2022",
-        "enableIf": "{answer50} empty"
+        "enableIf": "{answer62} empty"
       }
     ]
   },
@@ -33,16 +33,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer51",
-        "title": "Kdo napsal knihu knihu 'Ostře sledované vlaky'?",
+        "name": "answer71",
+        "title": "Kdo napsal knihu knihu 'Co mě naučil tučňák'?",
         "choices": [
-          "Frank, Sylvia",
-          "Podolová, Petra",
-          "Gogol, Nikolai",
-          "Hrabal, Bohumil"
+          "Dalcher, Christina",
+          "Sapkowski, Andrzej",
+          "Zhao, Xiran Jay",
+          "Michell, Tom"
         ],
-        "correctAnswer": "Hrabal, Bohumil",
-        "enableIf": "{answer51} empty"
+        "correctAnswer": "Michell, Tom",
+        "enableIf": "{answer71} empty"
       }
     ]
   },
@@ -50,16 +50,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer52",
-        "title": "Ve kterém roce jsi přečetla knihu 'Baletky'?",
+        "name": "answer42",
+        "title": "Ve kterém roce jsi přečetla knihu 'Pěšky mezi buddhisty a komunisty'?",
+        "choices": [
+          "2024",
+          "2023",
+          "2022",
+          "2021"
+        ],
+        "correctAnswer": "2023",
+        "enableIf": "{answer42} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer84",
+        "title": "Ve kterém roce jsi přečetla knihu 'Hobit'?",
         "choices": [
           "2022",
           "2023",
-          "2020",
-          "2021"
+          "2024",
+          "2020"
         ],
         "correctAnswer": "2022",
-        "enableIf": "{answer52} empty"
+        "enableIf": "{answer84} empty"
       }
     ]
   },
@@ -67,33 +84,33 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer53",
-        "title": "Kdo napsal knihu knihu 'Baletky'?",
+        "name": "answer72",
+        "title": "Ve kterém roce jsi přečetla knihu 'Mráz (Detektiv Martin Servaz, #1)'?",
         "choices": [
-          "Bílková, Alžběta",
-          "Čechová, Miřenka",
-          "Owens, Delia",
-          "Karolová, Kateřina"
-        ],
-        "correctAnswer": "Čechová, Miřenka",
-        "enableIf": "{answer53} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer54",
-        "title": "Ve kterém roce jsi přečetla knihu 'Spalovač mrtvol'?",
-        "choices": [
-          "2022",
+          "2024",
           "2021",
+          "2020",
+          "2022"
+        ],
+        "correctAnswer": "2022",
+        "enableIf": "{answer72} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer78",
+        "title": "Ve kterém roce jsi přečetla knihu 'Smrt krásných srnců'?",
+        "choices": [
+          "2020",
+          "2022",
           "2023",
           "2024"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer54} empty"
+        "correctAnswer": "2023",
+        "enableIf": "{answer78} empty"
       }
     ]
   },
@@ -101,16 +118,16 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer55",
-        "title": "Kdo napsal knihu knihu 'Spalovač mrtvol'?",
+        "name": "answer195",
+        "title": "Kdo napsal knihu knihu 'Střet králů (Píseň ledu a ohně, #2)'?",
         "choices": [
-          "Green, John",
-          "Fuks, Ladislav",
-          "Meyer, Marissa",
-          "Cline, Ernest"
+          "Shakespeare, William",
+          "Riordan, Rick",
+          "Martin, George R.R.",
+          "Fitzgerald, F. Scott"
         ],
-        "correctAnswer": "Fuks, Ladislav",
-        "enableIf": "{answer55} empty"
+        "correctAnswer": "Martin, George R.R.",
+        "enableIf": "{answer195} empty"
       }
     ]
   },
@@ -118,67 +135,50 @@
     "elements": [
       {
         "type": "radiogroup",
-        "name": "answer56",
-        "title": "Ve kterém roce jsi přečetla knihu 'Maryša'?",
+        "name": "answer201",
+        "title": "Kdo napsal knihu knihu 'Lakomec'?",
         "choices": [
+          "Goldoni, Carlo",
+          "Jirotka, Zdeněk",
+          "Špitálníková, Nina",
+          "Molière"
+        ],
+        "correctAnswer": "Molière",
+        "enableIf": "{answer201} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer156",
+        "title": "Ve kterém roce jsi přečetla knihu 'Trhlina'?",
+        "choices": [
+          "2020",
+          "2023",
           "2021",
+          "2022"
+        ],
+        "correctAnswer": "2021",
+        "enableIf": "{answer156} empty"
+      }
+    ]
+  },
+  {
+    "elements": [
+      {
+        "type": "radiogroup",
+        "name": "answer12",
+        "title": "Ve kterém roce jsi přečetla knihu 'Legendy & latéčka (Legendy & latéčka, #1)'?",
+        "choices": [
+          "2020",
+          "2023",
           "2022",
-          "2024",
-          "2020"
+          "2024"
         ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer56} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer57",
-        "title": "Kdo napsal knihu knihu 'Maryša'?",
-        "choices": [
-          "Rolland, Romain",
-          "Nesbø, Jo",
-          "Baldree, Travis",
-          "Mrštík, Alois"
-        ],
-        "correctAnswer": "Mrštík, Alois",
-        "enableIf": "{answer57} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer58",
-        "title": "Ve kterém roce jsi přečetla knihu 'Odcházení'?",
-        "choices": [
-          "2021",
-          "2024",
-          "2022",
-          "2020"
-        ],
-        "correctAnswer": "2022",
-        "enableIf": "{answer58} empty"
-      }
-    ]
-  },
-  {
-    "elements": [
-      {
-        "type": "radiogroup",
-        "name": "answer59",
-        "title": "Kdo napsal knihu knihu 'Odcházení'?",
-        "choices": [
-          "Mornštajnová, Alena",
-          "Havel, Václav",
-          "Stehlíková, Petra",
-          "Motte, Anders de la"
-        ],
-        "correctAnswer": "Havel, Václav",
-        "enableIf": "{answer59} empty"
+        "correctAnswer": "2024",
+        "enableIf": "{answer12} empty"
       }
     ]
   }

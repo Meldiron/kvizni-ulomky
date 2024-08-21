@@ -21,6 +21,11 @@ const json = {
           isRequired: true,
           choices: [
             {
+              value: "/proctene-2",
+              text:
+                "Pročtené knihy #2 <span style='opacity: 0.4;'>(ze dne 21.8.2024)</span>"
+            },
+            {
               value: "/proctene-1",
               text:
                 "Pročtené knihy #1 <span style='opacity: 0.4;'>(ze dne 19.8.2024)</span>"
